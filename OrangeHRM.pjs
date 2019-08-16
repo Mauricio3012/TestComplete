@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{31E7D7B4-D904-4C0F-9227-4B5CE3D42745}">
+	<children>
+		<child name="MeuTestProject" key="{D19E38D0-6713-436E-B9AF-4103ED7D666D}" path="OrangeHRM\MeuTestProject.mds" />
+	</children>
+	<testItems key="{4F1526E3-148B-4700-8E29-6CB3CEE76E11}">
+		<children>
+			<testItem key="{D19E38D0-6713-436E-B9AF-4103ED7D666D}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{425D1A8C-139F-4887-AF41-445DA3240F9D}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{8B8B1B81-E028-4FAA-96FF-B388D23E2EB4}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>

@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi77659732897282.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="509"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="244"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9501736111"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="509"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="244"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0327993634"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="date" type="D" value="43692.9078046181"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (39, 21) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi77671701597289.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="533"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="241"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9515509259"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="533"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="241"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0329285417"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="date" type="D" value="43692.9079370139"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 63, 18.&#xA;End point: -2, 20. (Negative coordinates mean the end point is outside the control's bounds.)&#xA;Dragging distance: -65, 2.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi7767284539728111.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="543"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="235"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9516782407"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="543"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="235"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0332186574"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="date" type="D" value="43692.9082229977"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (73, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="date" type="D" value="43692.9077498264"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="URL: https://retail.erpnext.com/desk#List/Employee/List&#xA;&#xA;Aliases.browser"/>
+			<Prp name="message" type="S" value="Navigating to the https://retail.erpnext.com/desk#List/Employee/List page."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{0F50D116-D4A5-4BEB-BA60-4289342D73F6}"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi776602468972832.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9502199074"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0333948611"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage15_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="date" type="D" value="43692.9084090394"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The text 'Maxwell' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="194"/>
+					<Prp name="image file name" type="S" value="tcvi7767634069728191.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1168"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1195"/>
+					<Prp name="click point y" type="I" value="176"/>
+					<Prp name="object left" type="I" value="1134"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9520833333"/>
+					<Prp name="object top" type="I" value="164"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.buttonRefresh"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="194"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1164"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1195"/>
+					<Prp name="click point y" type="I" value="179"/>
+					<Prp name="object left" type="I" value="1134"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0333636111"/>
+					<Prp name="object top" type="I" value="164"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.buttonRefresh"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage14_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="date" type="D" value="43692.9083728009"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.buttonRefresh&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(0).Panel(0).Panel(0).Panel(1).Button(0))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="545"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="235"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0332524537"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="date" type="D" value="43692.908256412"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (75, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="194"/>
+					<Prp name="image file name" type="S" value="tcvi7767634069728192.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1168"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1195"/>
+					<Prp name="click point y" type="I" value="176"/>
+					<Prp name="object left" type="I" value="1134"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9520833333"/>
+					<Prp name="object top" type="I" value="164"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.buttonRefresh"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="194"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1164"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1195"/>
+					<Prp name="click point y" type="I" value="179"/>
+					<Prp name="object left" type="I" value="1134"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0336322801"/>
+					<Prp name="object top" type="I" value="164"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.buttonRefresh"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage21_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="date" type="D" value="43692.9086412731"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.buttonRefresh&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(0).Panel(0).Panel(0).Panel(1).Button(0))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="545"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="235"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0335284954"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="date" type="D" value="43692.9085318403"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (75, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi776747109972814.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9518981481"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0330345602"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="date" type="D" value="43692.9080493634"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The text '' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="736"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1374"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0336505787"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Item"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="date" type="D" value="43692.9086568056"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Item&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="message" type="S" value="The 'Employee - Google Chrome' window was closed."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="date" type="D" value="43692.907696956"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="URL: https://retail.erpnext.com/desk#&#xA;&#xA;Aliases.browser"/>
+			<Prp name="message" type="S" value="Navigating to the https://retail.erpnext.com/desk# page."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi7767471099728141.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9518981481"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0332975579"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage13_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="date" type="D" value="43692.9083078241"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The text '' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi776717015972892.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="533"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="241"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9515509259"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="533"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="241"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0334387731"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage16_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="date" type="D" value="43692.9084470602"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 63, 18.&#xA;End point: -2, 20. (Negative coordinates mean the end point is outside the control's bounds.)&#xA;Dragging distance: -65, 2.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="194"/>
+					<Prp name="image file name" type="S" value="tcvi776763406972819.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1168"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1195"/>
+					<Prp name="click point y" type="I" value="176"/>
+					<Prp name="object left" type="I" value="1134"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9520833333"/>
+					<Prp name="object top" type="I" value="164"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.buttonRefresh"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="194"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="1164"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1195"/>
+					<Prp name="click point y" type="I" value="179"/>
+					<Prp name="object left" type="I" value="1134"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0331117014"/>
+					<Prp name="object top" type="I" value="164"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.buttonRefresh"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="date" type="D" value="43692.9081226852"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.buttonRefresh&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(0).Panel(0).Panel(0).Panel(1).Button(0))"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="545"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="235"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0329958218"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="date" type="D" value="43692.908001875"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (75, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi776717015972891.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="533"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="241"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9515509259"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="533"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="241"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0331888657"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="date" type="D" value="43692.908195544"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 63, 18.&#xA;End point: -2, 20. (Negative coordinates mean the end point is outside the control's bounds.)&#xA;Dragging distance: -65, 2.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="517"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="238"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0330197454"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="date" type="D" value="43692.9080237384"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (47, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi7767284539728112.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="543"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="235"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9516782407"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="543"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="235"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0334842824"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage17_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="date" type="D" value="43692.9084920602"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (73, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi77660246897283.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9502199074"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0328304282"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="date" type="D" value="43692.9078457986"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The text 'Caitlin' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="517"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="238"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0335548843"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="date" type="D" value="43692.9085581944"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (47, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="517"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="238"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0332804514"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="date" type="D" value="43692.9082865394"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (47, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi776602468972831.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9502199074"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0331453241"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="date" type="D" value="43692.9081574537"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The text 'Vandal' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi7767471099728142.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9518981481"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0335702546"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage20_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="date" type="D" value="43692.908581875"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The text '' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="tcvi776728453972811.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="543"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="235"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43692.9516782407"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="253"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="543"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="610"/>
+					<Prp name="click point y" type="I" value="235"/>
+					<Prp name="object left" type="I" value="470"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="43693.0329641782"/>
+					<Prp name="object top" type="I" value="223"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="date" type="D" value="43692.9079677315"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (73, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageEmployee.panel.panelBodyDiv.panelPageListEmployeeList.panel.panel.panel.panel.panel.panel.panel.panel.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://retail.erpnext.com/desk#List/Employee/List&quot;).Panel(0).Panel(&quot;body_div&quot;).Panel(&quot;page_List_Employee_List&quot;).Panel(1).Panel(1).Panel(0).Panel(2).Panel(1).Panel(0).Panel(1).Panel(1).Textbox(0))"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>
