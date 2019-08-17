@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="14.0">
 	<children>
-		<child name="Stores" key="{37B8E717-88D5-4E07-B952-11D2DA86C7BA}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
-		<child name="NameMapping" key="{8CCA5546-0A2C-48EB-9F0E-BA5573DDE30B}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
-		<child name="Script" key="{375726D0-F23A-40B5-A5A2-20E690CBB891}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
-		<child name="KeywordTests" key="{7F7C8535-A586-47D5-8BC4-3F64ED318F25}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
-		<child name="TestedApps" key="{17CA7D34-4E1C-4265-9263-27AB35EA6D4C}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+		<child name="Stores" key="{D16B94DB-0F33-4A4F-B7F6-04F4BA6B6BA6}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
+		<child name="NameMapping" key="{37F4BBDC-C313-4F43-8478-6FFB447EF9B8}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="Script" key="{24B4ABC4-B4E2-4641-AAC3-F739DB29D761}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+		<child name="KeywordTests" key="{AB613235-D18F-4BEA-B016-824355B560E5}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="TestedApps" key="{0A3795A9-A4AF-4261-8D51-E0F6DB94914F}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
-	<testItems key="{A4D216F2-F243-4741-83A6-DCA4EA167359}" version="14">
+	<testItems key="{A7F3A89A-EC7A-4A11-9999-9C01F4B0933D}" version="14">
 		<children />
 	</testItems>
-	<variables key="{18786ADA-4A67-46F3-9ECE-176B96AE096F}">
+	<variables key="{C39FC9E6-0DFA-4566-B0AE-C8BF103C760B}">
 		<data Version="3" />
 	</variables>
-	<settings key="{A0682CB4-AFEB-4D92-86F3-8B2503E0A9B0}">
+	<settings key="{11DFF146-EB87-4F61-BA63-72BF3104A13B}">
 		<settingsVersion value="14.10" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
@@ -623,11 +623,11 @@
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
 	</settings>
-	<analysis key="{A517EBBA-547F-4461-93A6-E866608969B5}" />
+	<analysis key="{05BF382E-5442-49B4-A1D2-0C3EE4F7CB87}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
 		<data />
 	</scc>
-	<issueTracking key="{F3BE250A-205A-4B73-A467-3325A0D8EDB6}">
+	<issueTracking key="{9365B8AA-5E53-4731-A96B-E32751F053D7}">
 		<Templates>
 			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
 				<Fields>

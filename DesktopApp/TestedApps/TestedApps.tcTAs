@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{0A3795A9-A4AF-4261-8D51-E0F6DB94914F}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{11B2492B-DAB0-44C0-AF49-694BD3DDFC52}">
+			<config nodeName="WindowsCalculator" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="WinStore">
+					<param name="WinStore" parameters="" workFolder="" packageName="Microsoft.WindowsCalculator" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

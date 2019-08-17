@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Calculadora_Multiplicacao" key="{9EA1A5DE-253C-44A3-91E8-9924BCAB605F}" path="Calculadora_Multiplicacao.tcKDTest" />
+		<child name="Comparacao_resultado_esperado" key="{3258E647-95EE-4F85-A2E2-F0B775A8C84A}" path="Comparacao_resultado_esperado.tcKDTest" />
+		<child name="Notas_na_tela" key="{815D8309-27F0-49DC-9C96-8D8B5333C1D8}" path="Notas_na_tela.tcKDTest" />
+	</children>
+</Root>
