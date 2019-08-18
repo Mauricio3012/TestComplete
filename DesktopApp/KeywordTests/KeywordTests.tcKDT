@@ -3,6 +3,7 @@
 	<children>
 		<child name="Calculadora_Multiplicacao" key="{9EA1A5DE-253C-44A3-91E8-9924BCAB605F}" path="Calculadora_Multiplicacao.tcKDTest" />
 		<child name="Comparacao_resultado_esperado" key="{3258E647-95EE-4F85-A2E2-F0B775A8C84A}" path="Comparacao_resultado_esperado.tcKDTest" />
-		<child name="Notas_na_tela" key="{815D8309-27F0-49DC-9C96-8D8B5333C1D8}" path="Notas_na_tela.tcKDTest" />
+		<child name="Lista_de_inventario" key="{EF0F0879-B826-49A5-A280-FA5F5DDEA4B5}" path="Lista_de_inventario.tcKDTest" />
+		<child name="Novo_Contato" key="{D5B0D7E9-D0C9-40F4-BE48-FBFC4F85884A}" path="Novo_Contato.tcKDTest" />
 	</children>
 </Root>

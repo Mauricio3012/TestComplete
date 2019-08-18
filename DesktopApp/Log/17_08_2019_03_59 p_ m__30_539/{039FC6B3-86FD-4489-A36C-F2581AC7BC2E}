@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="23"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="519"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.CEP.CEP"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43694.791360081"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object bottom" type="I" value="567"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="535"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="39"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="519"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.CEP.CEP"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43694.7784490741"/>
+					<Prp name="image file name" type="S" value="tcvi71678828301241.png"/>
+					<Prp name="object bottom" type="I" value="395"/>
+					<Prp name="click point x" type="I" value="-222"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="363"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="39"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43694.6663911111"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'74' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.CEP.CEP&#xA;(Sys.Process(&quot;Microsoft.People&quot;).UIAObject(&quot;Pessoas&quot;).UIAObject(&quot;UniversalMainPage&quot;).UIAObject(&quot;ContactsView&quot;).UIAObject(&quot;ContactCardPage&quot;).UIAObject(&quot;Cartão_de_visita&quot;).UIAObject(&quot;ContactInfoEditPanelPage&quot;).UIAObject(&quot;MainPageGrid&quot;).UIAObject(&quot;ScrollViewer&quot;).UIAObject(&quot;ContactEditLinkedPageSlabItems&quot;).UIAObject(&quot;Endereço_residencial_&quot;).UIAObject(&quot;ContactEditAddressFields&quot;).UIAObject(&quot;CEP&quot;).UIAObject(&quot;CEP&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="43694.6666149884"/>
+			<Prp name="message" type="S" value="The test execution was interrupted."/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{D5B0D7E9-D0C9-40F4-BE48-FBFC4F85884A}"/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

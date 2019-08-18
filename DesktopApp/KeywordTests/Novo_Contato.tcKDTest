@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{60444730-4541-4F86-902D-D05621987435}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.App" Data="61717A697000000001000000360400007801BD914D4B024118C7FF411FA08FD0B12F90272F76F05641511B24D10B09BDB89A118250414865A5951525451DB6172B3CB410BA84A0D145B0D8100C2AC94B084694E0C1DBB633B6B65AE921688667E6199EF93DFFE799696AD6D4820E8DBC36C856F76935A8973D797CC60B87C22AA1F2E45F24102353ED57A6BEEECF19BAB1D4C550767D73151B6DEDC57CEA1C46A3116A53B4165A5B70D66F8445ABA52CD9955839CFF33C0441A0F12DA603D37A3DC2EC302EFA7A703E68C0BDC58CAB81012C9A86606AD494D441B4D5FCE3DC2CC2133690DDD9C9C0C51D8077CE53FE4C3E1353DE85D4A1E62391088DC56536B5ECC2984E078F780B6FF812D72CFB8D2DE749DEE48A1BCFFB8778F7F97032C2C2C63058E8EDC5E5A889F2D5EA7F088570E759C35B3088D7631F92CE5924266D940F5BAD0859C7ABD64FEA783A3AC1C3DE2EC49929DC4CD921982D9453F75E5E3FE93F1A8DD27BC99D6DC44F7DD427BCA24BDEEBB7FF537851148B5AE974BAE84B52E1BDD5BCDD6E87C3E180DBED86D7EB05C771F0FBFD08040220F962B11812890452A91432990C72B95C893EE149BC129FCD66299FCFE77FE4FFA2AFEEE53FFD0F0C13FF0C" />
+					<Bitmap Name="Aliases.ApplicationFrameHost" Data="61717A697000000001000000360400007801BD914D4B024118C7FF411FA08FD0B12F90272F76F05641511B24D10B09BDB89A118250414865A5951525451DB6172B3CB410BA84A0D145B0D8100C2AC94B084694E0C1DBB633B6B65AE921688667E6199EF93DFFE799696AD6D4820E8DBC36C856F76935A8973D797CC60B87C22AA1F2E45F24102353ED57A6BEEECF19BAB1D4C550767D73151B6DEDC57CEA1C46A3116A53B4165A5B70D66F8445ABA52CD9955839CFF33C0441A0F12DA603D37A3DC2EC302EFA7A703E68C0BDC58CAB81012C9A86606AD494D441B4D5FCE3DC2CC2133690DDD9C9C0C51D8077CE53FE4C3E1353DE85D4A1E62391088DC56536B5ECC2984E078F780B6FF812D72CFB8D2DE749DEE48A1BCFFB8778F7F97032C2C2C63058E8EDC5E5A889F2D5EA7F088570E759C35B3088D7631F92CE5924266D940F5BAD0859C7ABD64FEA783A3AC1C3DE2EC49929DC4CD921982D9453F75E5E3FE93F1A8DD27BC99D6DC44F7DD427BCA24BDEEBB7FF537851148B5AE974BAE84B52E1BDD5BCDD6E87C3E180DBED86D7EB05C771F0FBFD08040220F962B11812890452A91432990C72B95C893EE149BC129FCD66299FCFE77FE4FFA2AFEEE53FFD0F0C13FF0C" />
+					<Bitmap Name="Aliases.ApplicationFrameHost.wndPessoas" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+					<Bitmap Name="Aliases.explorer" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC2A13EF96CABD57F1846371D260EA291E5CAF75CB830F9F9FFFF208CAC062606A3B1C921EB25473FCC6C188DCD0E62E4B0A941360B9D0D538F4EA3ABC3C547D707E36FBAB215250CB1E907A981A91FA5FFFF77B8F81B2BF6BAF2E77FE5837F78C30A94FE40FA41E18C0C60669AAC3A738185971F940D7102901A987A645A67C2DA0D84F4E234940409006F84809E" />
+					<Bitmap Name="Aliases.explorer.wndShell_TrayWnd" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+					<Bitmap Name="Aliases.Microsoft_People" Data="61717A697000000001000000360400007801BD914D4B024118C7FF411FA08FD0B12F90272F76F05641511B24D10B09BDB89A118250414865A5951525451DB6172B3CB410BA84A0D145B0D8100C2AC94B084694E0C1DBB633B6B65AE921688667E6199EF93DFFE799696AD6D4820E8DBC36C856F76935A8973D797CC60B87C22AA1F2E45F24102353ED57A6BEEECF19BAB1D4C550767D73151B6DEDC57CEA1C46A3116A53B4165A5B70D66F8445ABA52CD9955839CFF33C0441A0F12DA603D37A3DC2EC302EFA7A703E68C0BDC58CAB81012C9A86606AD494D441B4D5FCE3DC2CC2133690DDD9C9C0C51D8077CE53FE4C3E1353DE85D4A1E62391088DC56536B5ECC2984E078F780B6FF812D72CFB8D2DE749DEE48A1BCFFB8778F7F97032C2C2C63058E8EDC5E5A889F2D5EA7F088570E759C35B3088D7631F92CE5924266D940F5BAD0859C7ABD64FEA783A3AC1C3DE2EC49929DC4CD921982D9453F75E5E3FE93F1A8DD27BC99D6DC44F7DD427BCA24BDEEBB7FF537851148B5AE974BAE84B52E1BDD5BCDD6E87C3E180DBED86D7EB05C771F0FBFD08040220F962B11812890452A91432990C72B95C893EE149BC129FCD66299FCFE77FE4FFA2AFEEE53FFD0F0C13FF0C" />
+					<Bitmap Name="Aliases.Microsoft_People.Pessoas" Data="61717A697000000001000000360400007801A5934D48146118C77F4AE0B543976E1D3BF5056EB7040F1146121E3B0549D4250F4B8764D9E8A019511ADB874986B46CA5E05E5283C8D2B6026B13435D5BCDCDB25DD35D77F663F663763EB6773F8C650702EB1D9E776698F9FFE679FECF338D272C3B282E8BD8F78AD8598E1AF6882BB1CACF4B37A53DCFFF1FAD4D16B613E75B1A8AEF6F7DD93BF6043519259788908B87C9C53650A45F28D13594CD10D9F51532C125D2DF7DC8CB33C84BD366BD2CFD95A18457C9AE0548AF7E21F56DD6AC4FC5512B18C958840ECF3487DF0468F89CA07BF127958C42BD95F96BE924A1FE6EA4A94922EE47CCDB2FB2BB6F1486FCF051A76E2A86140EFD6198F41999EC3D3BC6B003ADEB1CFEC6FD9C1EF1C08017DEA6C06B30F83558F4A39047B55ECFA6919F3FC6705E45BFDB4EA8B99EBE01278786DE71616E9D537E992B8BC2D3B2AF26BD92410DAEA0B81CA84F6F225D3E4B60729CE30F3BA91BB552EBEFE2C8AB5BA4A22586499FCBA20B46B32349FB884C4B4F9C0327C739D66BA376B00D7CD760A693F70B1F8AFDADD61B5A0E4355B00D27697A60B0ABCDA0A67E02ABCB05F7CF080F6DF0E336975E3B8B3362D2EB1A0586673EC5C1EB3AFB3A7438BA8CF5C60B5ADD7778199AC51D99A3E7D3186A62D3E45FDED03104232DEAE89F90B13FCB62ED0DE35B08A289DE14FAAB15672426E64C32EBF3621ACA0C4353452D39F4B22785DE5433AAF32FFC03DB894AFDD61CFECBF937F1361B4F" />
+					<Bitmap Name="Aliases.Microsoft_People.Pessoas.UniversalMainPage" Data="61717A697000000001000000360400007801A5934D48146118C77F4AE0B543976E1D3BF5056EB7040F1146121E3B0549D4250F4B8764D9E8A019511ADB874986B46CA5E05E5283C8D2B6026B13435D5BCDCDB25DD35D77F663F663763EB6773F8C650702EB1D9E776698F9FFE679FECF338D272C3B282E8BD8F78AD8598E1AF6882BB1CACF4B37A53DCFFF1FAD4D16B613E75B1A8AEF6F7DD93BF6043519259788908B87C9C53650A45F28D13594CD10D9F51532C125D2DF7DC8CB33C84BD366BD2CFD95A18457C9AE0548AF7E21F56DD6AC4FC5512B18C958840ECF3487DF0468F89CA07BF127958C42BD95F96BE924A1FE6EA4A94922EE47CCDB2FB2BB6F1486FCF051A76E2A86140EFD6198F41999EC3D3BC6B003ADEB1CFEC6FD9C1EF1C08017DEA6C06B30F83558F4A39047B55ECFA6919F3FC6705E45BFDB4EA8B99EBE01278786DE71616E9D537E992B8BC2D3B2AF26BD92410DAEA0B81CA84F6F225D3E4B60729CE30F3BA91BB552EBEFE2C8AB5BA4A22586499FCBA20B46B32349FB884C4B4F9C0327C739D66BA376B00D7CD760A693F70B1F8AFDADD61B5A0E4355B00D27697A60B0ABCDA0A67E02ABCB05F7CF080F6DF0E336975E3B8B3362D2EB1A0586673EC5C1EB3AFB3A7438BA8CF5C60B5ADD7778199AC51D99A3E7D3186A62D3E45FDED03104232DEAE89F90B13FCB62ED0DE35B08A289DE14FAAB15672426E64C32EBF3621ACA0C4353452D39F4B22785DE5433AAF32FFC03DB894AFDD61CFECBF937F1361B4F" />
+					<Bitmap Name="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView" Data="61717A697000000001000000360400007801A5934D48146118C77F4AE0B543976E1D3BF5056EB7040F1146121E3B0549D4250F4B8764D9E8A019511ADB874986B46CA5E05E5283C8D2B6026B13435D5BCDCDB25DD35D77F663F663763EB6773F8C650702EB1D9E776698F9FFE679FECF338D272C3B282E8BD8F78AD8598E1AF6882BB1CACF4B37A53DCFFF1FAD4D16B613E75B1A8AEF6F7DD93BF6043519259788908B87C9C53650A45F28D13594CD10D9F51532C125D2DF7DC8CB33C84BD366BD2CFD95A18457C9AE0548AF7E21F56DD6AC4FC5512B18C958840ECF3487DF0468F89CA07BF127958C42BD95F96BE924A1FE6EA4A94922EE47CCDB2FB2BB6F1486FCF051A76E2A86140EFD6198F41999EC3D3BC6B003ADEB1CFEC6FD9C1EF1C08017DEA6C06B30F83558F4A39047B55ECFA6919F3FC6705E45BFDB4EA8B99EBE01278786DE71616E9D537E992B8BC2D3B2AF26BD92410DAEA0B81CA84F6F225D3E4B60729CE30F3BA91BB552EBEFE2C8AB5BA4A22586499FCBA20B46B32349FB884C4B4F9C0327C739D66BA376B00D7CD760A693F70B1F8AFDADD61B5A0E4355B00D27697A60B0ABCDA0A67E02ABCB05F7CF080F6DF0E336975E3B8B3362D2EB1A0586673EC5C1EB3AFB3A7438BA8CF5C60B5ADD7778199AC51D99A3E7D3186A62D3E45FDED03104232DEAE89F90B13FCB62ED0DE35B08A289DE14FAAB15672426E64C32EBF3621ACA0C4353452D39F4B22785DE5433AAF32FFC03DB894AFDD61CFECBF937F1361B4F" />
+					<Bitmap Name="Aliases.Microsoft_Windows_ShellExperienceHost" Data="61717A697000000001000000360400007801D58FD10D80200C446BE2008EE0A71338801FFC39B333301152E1254D1312F0C7D8A4DC41EFAEE138F7599EDAF3B9E55E6A4FB26696ABCECBA59C499284107EDDE965F16FB5C37BD17AE08ABE5A79AA6306F75EFF8E5E9199E52DBFF5C147FCE4FA5D3E0B9D4534207B419F69BD6878F35A9FC9BD07C926931D23C89E5E4F8CF1A2ED7E72BEC01B3F6D0543" />
+					<Bitmap Name="Aliases.Microsoft_Windows_ShellExperienceHost.Iniciar" Data="61717A697000000001000000360400007801A5934D48146118C77F4AE0B543976E1D3BF5056EB7040F1146121E3B0549D4250F4B8764D9E8A019511ADB874986B46CA5E05E5283C8D2B6026B13435D5BCDCDB25DD35D77F663F663763EB6773F8C650702EB1D9E776698F9FFE679FECF338D272C3B282E8BD8F78AD8598E1AF6882BB1CACF4B37A53DCFFF1FAD4D16B613E75B1A8AEF6F7DD93BF6043519259788908B87C9C53650A45F28D13594CD10D9F51532C125D2DF7DC8CB33C84BD366BD2CFD95A18457C9AE0548AF7E21F56DD6AC4FC5512B18C958840ECF3487DF0468F89CA07BF127958C42BD95F96BE924A1FE6EA4A94922EE47CCDB2FB2BB6F1486FCF051A76E2A86140EFD6198F41999EC3D3BC6B003ADEB1CFEC6FD9C1EF1C08017DEA6C06B30F83558F4A39047B55ECFA6919F3FC6705E45BFDB4EA8B99EBE01278786DE71616E9D537E992B8BC2D3B2AF26BD92410DAEA0B81CA84F6F225D3E4B60729CE30F3BA91BB552EBEFE2C8AB5BA4A22586499FCBA20B46B32349FB884C4B4F9C0327C739D66BA376B00D7CD760A693F70B1F8AFDADD61B5A0E4355B00D27697A60B0ABCDA0A67E02ABCB05F7CF080F6DF0E336975E3B8B3362D2EB1A0586673EC5C1EB3AFB3A7438BA8CF5C60B5ADD7778199AC51D99A3E7D3186A62D3E45FDED03104232DEAE89F90B13FCB62ED0DE35B08A289DE14FAAB15672426E64C32EBF3621ACA0C4353452D39F4B22785DE5433AAF32FFC03DB894AFDD61CFECBF937F1361B4F" />
+					<Bitmap Name="Aliases.Microsoft_Windows_ShellExperienceHost.Iniciar.SplitViewFrameXAMLWindow" Data="61717A697000000001000000360400007801A5934D48146118C77F4AE0B543976E1D3BF5056EB7040F1146121E3B0549D4250F4B8764D9E8A019511ADB874986B46CA5E05E5283C8D2B6026B13435D5BCDCDB25DD35D77F663F663763EB6773F8C650702EB1D9E776698F9FFE679FECF338D272C3B282E8BD8F78AD8598E1AF6882BB1CACF4B37A53DCFFF1FAD4D16B613E75B1A8AEF6F7DD93BF6043519259788908B87C9C53650A45F28D13594CD10D9F51532C125D2DF7DC8CB33C84BD366BD2CFD95A18457C9AE0548AF7E21F56DD6AC4FC5512B18C958840ECF3487DF0468F89CA07BF127958C42BD95F96BE924A1FE6EA4A94922EE47CCDB2FB2BB6F1486FCF051A76E2A86140EFD6198F41999EC3D3BC6B003ADEB1CFEC6FD9C1EF1C08017DEA6C06B30F83558F4A39047B55ECFA6919F3FC6705E45BFDB4EA8B99EBE01278786DE71616E9D537E992B8BC2D3B2AF26BD92410DAEA0B81CA84F6F225D3E4B60729CE30F3BA91BB552EBEFE2C8AB5BA4A22586499FCBA20B46B32349FB884C4B4F9C0327C739D66BA376B00D7CD760A693F70B1F8AFDADD61B5A0E4355B00D27697A60B0ABCDA0A67E02ABCB05F7CF080F6DF0E336975E3B8B3362D2EB1A0586673EC5C1EB3AFB3A7438BA8CF5C60B5ADD7778199AC51D99A3E7D3186A62D3E45FDED03104232DEAE89F90B13FCB62ED0DE35B08A289DE14FAAB15672426E64C32EBF3621ACA0C4353452D39F4B22785DE5433AAF32FFC03DB894AFDD61CFECBF937F1361B4F" />
+					<Bitmap Name="Aliases.Microsoft_Windows_ShellExperienceHost.Iniciar.SplitViewFrameXAMLWindow.Blocos_fixados" Data="61717A697000000001000000360400007801A5934D48146118C77F4AE0B543976E1D3BF5056EB7040F1146121E3B0549D4250F4B8764D9E8A019511ADB874986B46CA5E05E5283C8D2B6026B13435D5BCDCDB25DD35D77F663F663763EB6773F8C650702EB1D9E776698F9FFE679FECF338D272C3B282E8BD8F78AD8598E1AF6882BB1CACF4B37A53DCFFF1FAD4D16B613E75B1A8AEF6F7DD93BF6043519259788908B87C9C53650A45F28D13594CD10D9F51532C125D2DF7DC8CB33C84BD366BD2CFD95A18457C9AE0548AF7E21F56DD6AC4FC5512B18C958840ECF3487DF0468F89CA07BF127958C42BD95F96BE924A1FE6EA4A94922EE47CCDB2FB2BB6F1486FCF051A76E2A86140EFD6198F41999EC3D3BC6B003ADEB1CFEC6FD9C1EF1C08017DEA6C06B30F83558F4A39047B55ECFA6919F3FC6705E45BFDB4EA8B99EBE01278786DE71616E9D537E992B8BC2D3B2AF26BD92410DAEA0B81CA84F6F225D3E4B60729CE30F3BA91BB552EBEFE2C8AB5BA4A22586499FCBA20B46B32349FB884C4B4F9C0327C739D66BA376B00D7CD760A693F70B1F8AFDADD61B5A0E4355B00D27697A60B0ABCDA0A67E02ABCB05F7CF080F6DF0E336975E3B8B3362D2EB1A0586673EC5C1EB3AFB3A7438BA8CF5C60B5ADD7778199AC51D99A3E7D3186A62D3E45FDED03104232DEAE89F90B13FCB62ED0DE35B08A289DE14FAAB15672426E64C32EBF3621ACA0C4353452D39F4B22785DE5433AAF32FFC03DB894AFDD61CFECBF937F1361B4F" />
+					<Bitmap Name="Aliases.Microsoft_Windows_ShellExperienceHost.Iniciar.SplitViewFrameXAMLWindow.Blocos_fixados.Cabe_alho_do_grupo_La_vida_en_un_vistazo" Data="61717A697000000001000000360400007801A5934D48146118C77F4AE0B543976E1D3BF5056EB7040F1146121E3B0549D4250F4B8764D9E8A019511ADB874986B46CA5E05E5283C8D2B6026B13435D5BCDCDB25DD35D77F663F663763EB6773F8C650702EB1D9E776698F9FFE679FECF338D272C3B282E8BD8F78AD8598E1AF6882BB1CACF4B37A53DCFFF1FAD4D16B613E75B1A8AEF6F7DD93BF6043519259788908B87C9C53650A45F28D13594CD10D9F51532C125D2DF7DC8CB33C84BD366BD2CFD95A18457C9AE0548AF7E21F56DD6AC4FC5512B18C958840ECF3487DF0468F89CA07BF127958C42BD95F96BE924A1FE6EA4A94922EE47CCDB2FB2BB6F1486FCF051A76E2A86140EFD6198F41999EC3D3BC6B003ADEB1CFEC6FD9C1EF1C08017DEA6C06B30F83558F4A39047B55ECFA6919F3FC6705E45BFDB4EA8B99EBE01278786DE71616E9D537E992B8BC2D3B2AF26BD92410DAEA0B81CA84F6F225D3E4B60729CE30F3BA91BB552EBEFE2C8AB5BA4A22586499FCBA20B46B32349FB884C4B4F9C0327C739D66BA376B00D7CD760A693F70B1F8AFDADD61B5A0E4355B00D27697A60B0ABCDA0A67E02ABCB05F7CF080F6DF0E336975E3B8B3362D2EB1A0586673EC5C1EB3AFB3A7438BA8CF5C60B5ADD7778199AC51D99A3E7D3186A62D3E45FDED03104232DEAE89F90B13FCB62ED0DE35B08A289DE14FAAB15672426E64C32EBF3621ACA0C4353452D39F4B22785DE5433AAF32FFC03DB894AFDD61CFECBF937F1361B4F" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="33" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="7" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.explorer.wndShell_TrayWnd.Iniciar;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="73" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="78" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_Windows_ShellExperienceHost.Iniciar.SplitViewFrameXAMLWindow.Blocos_fixados.Cabe_alho_do_grupo_La_vida_en_un_vistazo.Pessoas;" />
+				</Data>
+			</Operation>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="Var1">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.SearchCommandBar.Novo_contato;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="182" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="15" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Nome.Nome_2.ContentElement;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="Nome" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Nome.Nome_2;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="138" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="5" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Telefone_celular.Telefone_celular_2.ContentElement;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="Telefone" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Telefone_celular.Telefone_celular_2;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="118" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="14" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Email_pessoal.Email_pessoal_2.ContentElement;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="Email" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Email_pessoal.Email_pessoal_2;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="654" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="451" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Down][Down][Down]" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.Adicionar_foto;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="6" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="13" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Adicionar_Endere_o.Adicionar_Endere_o.Endere_o;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+						<Data Action="Click" TBlockIntType="0">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Endereço" />
+								<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+									<Values>
+										<Value Type="1" Value="-10" Text="spNone" />
+										<Value Type="1" Value="-11" Text="spNearestToCenter" />
+										<Value Type="1" Value="-12" Text="spLeftMost" />
+										<Value Type="1" Value="-13" Text="spRightMost" />
+										<Value Type="1" Value="-14" Text="spTopMost" />
+										<Value Type="1" Value="-15" Text="spBottomMost" />
+										<Value Type="1" Value="-16" Text="spLargest" />
+										<Value Type="1" Value="-17" Text="spSmallest" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Microsoft_People.Pessoas.Popup.MenuFlyout.Endere_o_residencial.Endere_o_residencial;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="Rua" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.Rua.Rua;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="668" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="410" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="[Down][Down][Down]" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.Adicionar_foto;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="86" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="12" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.Cidade.Cidade.ContentElement;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="Cidade_" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.Cidade.Cidade;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+						<Data Action="Click" TBlockIntType="0">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Estado/município" />
+								<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+									<Values>
+										<Value Type="1" Value="-10" Text="spNone" />
+										<Value Type="1" Value="-11" Text="spNearestToCenter" />
+										<Value Type="1" Value="-12" Text="spLeftMost" />
+										<Value Type="1" Value="-13" Text="spRightMost" />
+										<Value Type="1" Value="-14" Text="spTopMost" />
+										<Value Type="1" Value="-15" Text="spBottomMost" />
+										<Value Type="1" Value="-16" Text="spLargest" />
+										<Value Type="1" Value="-17" Text="spSmallest" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.Estado_munic_pio.Estado_munic_pio.ContentElement;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="Estado" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.Estado_munic_pio.Estado_munic_pio;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="37" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="10" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.CEP.CEP.ContentElement;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="CEP" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.CEP.CEP;" />
+						</Data>
+					</Operation>
+					<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+						<Data Action="Click" TBlockIntType="0">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="região" />
+								<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+									<Values>
+										<Value Type="1" Value="-10" Text="spNone" />
+										<Value Type="1" Value="-11" Text="spNearestToCenter" />
+										<Value Type="1" Value="-12" Text="spLeftMost" />
+										<Value Type="1" Value="-13" Text="spRightMost" />
+										<Value Type="1" Value="-14" Text="spTopMost" />
+										<Value Type="1" Value="-15" Text="spBottomMost" />
+										<Value Type="1" Value="-16" Text="spLargest" />
+										<Value Type="1" Value="-17" Text="spSmallest" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.Pa_s_regi_o.Pa_s_regi_o.ContentElement;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{874735FC-322E-4380-A0DD-AB0206EE8AA0}" VariableType="4" VariableName="Var1" ColumnName="Pais" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.ScrollViewer.ContactEditLinkedPageSlabItems.Endere_o_residencial_.ContactEditAddressFields.Pa_s_regi_o.Pa_s_regi_o;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ContactInfoEditPanelPage.MainPageGrid.Salvar;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.ContactCardPage.Cart_o_de_visita.ApplicationBar.voltar;" />
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.Lista_de_contatos.SeZo.ContactsList.L.Lacey_Chapman.Lacey_Chapman.Lacey_Chapman_2" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Lacey Chapman" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{39A2A638-1164-44A7-BA26-765FD8B9CE63}">
+		<Items>
+			<Variable Name="Var1" Type="{4AD4881B-176C-4C96-8288-FBBB7E3D1FE3}" Local="False">
+				<DefValue RowCount="3" ColumnCount="8">
+					<Columns ColumnName0="Nome" ColumnName1="Telefone" ColumnName2="Email" ColumnName3="Rua" ColumnName4="Cidade_" ColumnName5="Estado" ColumnName6="CEP" ColumnName7="Pais" />
+					<Row No="0" Cell0="4800610072007200690073006F006E002000460072006F0073007400" Cell1="3400380036002D003800370037002D003500380034003300" Cell2="700061007200720069007300680040006C0061006300750073002E0075007300" Cell3="340038003700310037002000450061007300740020004100630065007600650064006F002000430074002E00" Cell4="4E006F00720074006800200050006F006C006500" Cell5="540065006E006E0065007300730065006500" Cell6="35003200390031003200" Cell7="4900630065006C0061006E006400" />
+					<Row No="1" Cell0="4100620065006C002000440069006C006C006F006E00" Cell1="3400370039002D003900360036002D003900340033003100" Cell2="70006100720073006F006E0073004000650072006F0073002E0075007300" Cell3="3900300031003400320020005700650073007400200055006E006900740065006400200053007400610074006500730020004D0069006E006F00720020004F00750074006C00790069006E0067002000490073006C0061006E006400730020004C006E002E00" Cell4="4D0061006C00640065006E00" Cell5="4400690073007400720069006300740020006F006600200043006F006C0075006D00620069006100" Cell6="30003700380036003800" Cell7="540061006E007A0061006E00690061002C00200055006E0069007400650064002000520065007000750062006C006900630020006F006600" />
+					<Row No="2" Cell0="4C006100630065007900200043006800610070006D0061006E00" Cell1="3300340039002D003100330031002D003400300031003300" Cell2="6C006F006E00670040006E0075006C006C0061006D002E006F0072006700" Cell3="3300380031003800320020004E006F0072007400680020004200750072006B0069006E00610020004600610073006F00200042006C00760064002E00" Cell4="57006900730063006F006E00730069006E002000520061007000690064007300" Cell5="4D006900730073006F00750072006900" Cell6="33003100310035003000" Cell7="41006E0074006900670075006100200061006E00640020004200610072006200750064006100" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{5475A92E-01EA-4D74-8178-F0F31B2484F7}" />
+</Root>

@@ -9,7 +9,16 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{A7F3A89A-EC7A-4A11-9999-9C01F4B0933D}" version="14">
-		<children />
+		<children>
+			<testItem name="ProjectTestItem1" key="{76C0F58B-C503-42D1-ABA8-6744A5D7766B}" group="False" enabled="True" testMoniker="KDT\{3258E647-95EE-4F85-A2E2-F0B775A8C84A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="ProjectTestItem2" key="{1590296B-6287-4EA0-AFF7-DBE625C1759D}" group="False" enabled="True" testMoniker="KDT\{D5B0D7E9-D0C9-40F4-BE48-FBFC4F85884A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{C39FC9E6-0DFA-4566-B0AE-C8BF103C760B}">
 		<data Version="3" />

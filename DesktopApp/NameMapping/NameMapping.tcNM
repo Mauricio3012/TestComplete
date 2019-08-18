@@ -168,6 +168,34 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="wndPessoas" Key="{4EB0E5D4-AEE0-4012-B97A-D7D59ABEF665}" ParallelWalk="True">
+								<Image FileName="-667760764" Left="0" Top="0" Right="816" Bottom="640" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="ApplicationFrameWindow" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Pessoas" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ApplicationFrameTitleBarWindow" Key="{A99B0258-B508-4287-92C2-90AFB56747D4}" ParallelWalk="True">
+										<Image FileName="-667760764" Left="8" Top="0" Right="808" Bottom="32" />
+										<TypeInfo Item0="{9221A445-7E44-4ED4-ABE2-B84BD3D252DE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="ApplicationFrameTitleBarWindow" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{8DAF98BC-675C-4527-BFED-6CF494F94088}" ParallelWalk="True">
@@ -246,6 +274,164 @@
 																<Value PropertyType="0" Value="Aplicativos em execução" Type="5" />
 															</Property>
 														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Iniciar" Key="{2B83E731-0847-4B24-85F7-DFB7D091F488}" ParallelWalk="True">
+										<Image FileName="1957566232" Left="0" Top="0" Right="48" Bottom="40" />
+										<TypeInfo Item0="{9221A445-7E44-4ED4-ABE2-B84BD3D252DE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Start" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="Iniciar" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndDesktopApp" Key="{ACCFA7B0-194C-4C54-B596-2D7604749AC2}" ParallelWalk="True">
+								<Image FileName="-917146677" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="CabinetWClass" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="DesktopApp" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopApp" Key="{C79D9B21-8319-406B-8920-25A4FB7A514D}" ParallelWalk="True">
+										<Image FileName="-917146677" Left="0" Top="174" Right="1366" Bottom="728" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="ShellTabWindowClass" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="DesktopApp" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DUIViewWndClassName" Key="{25C06001-854E-4C81-ACA3-D87F6AFF4BED}" ParallelWalk="True">
+												<Image FileName="-917146677" Left="0" Top="174" Right="1366" Bottom="728" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="DUIViewWndClassName" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Painel_do_Explorer" Key="{54197D4F-DEB6-4FFD-99D8-02E2FC4460C8}" ParallelWalk="True">
+														<Image FileName="-917146677" Left="0" Top="174" Right="1366" Bottom="728" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="DirectUI" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="HWNDView" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="painel" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Painel_do_Explorer" Type="5" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="CtrlNotifySink" Key="{B82681DE-33D1-439E-81B8-D5DF041E1D4F}" ParallelWalk="True">
+																<Image FileName="-917146677" Left="160" Top="174" Right="1366" Bottom="705" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="CtrlNotifySink" Type="5" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value PropertyType="0" Value="" Type="5" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value PropertyType="0" Value="5" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ShellView" Key="{026ABD56-4604-4C76-AA4A-C28C391EC13C}" ParallelWalk="True">
+																		<Image FileName="-917146677" Left="160" Top="174" Right="1366" Bottom="705" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="SHELLDLL_DefView" Type="5" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value PropertyType="0" Value="ShellView" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Modo_de_Exibi_o_de_Itens" Key="{33D495C0-A9AF-4C81-9F45-48C25E658973}" ParallelWalk="True">
+																				<Image FileName="-917146677" Left="160" Top="174" Right="1366" Bottom="705" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value PropertyType="0" Value="DirectUI" Type="5" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="UIItemsView" Type="5" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value PropertyType="0" Value="Lista" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="Modo_de_Exibição_de_Itens" Type="5" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value PropertyType="0" Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Lista_de_inventario_xlsx" Key="{FC34EB03-13DB-4760-9460-5063204EEAEC}" ParallelWalk="True">
+																						<Image FileName="-917146677" Left="174" Top="394" Right="748" Bottom="416" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value PropertyType="0" Value="DirectUI" Type="5" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value PropertyType="0" Value="UIItem" Type="5" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value PropertyType="0" Value="item de lista" Type="5" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value PropertyType="0" Value="Lista_de_inventario_xlsx" Type="5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Nome" Key="{E78B28D5-194A-483F-8285-87FF1762BB29}" ParallelWalk="True">
+																								<Image FileName="-917146677" Left="196" Top="394" Right="432" Bottom="416" />
+																								<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value PropertyType="0" Value="DirectUI" Type="5" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value PropertyType="0" Value="UIProperty" Type="5" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value PropertyType="0" Value="editar" Type="5" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value PropertyType="0" Value="Nome" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
 													</Child>
 												</Children>
 											</Child>
@@ -810,6 +996,1601 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="EXCEL" Key="{0818A569-4B2A-4263-A8EF-66D3EC3C8337}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="EXCEL" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndXLMAIN" Key="{9197AE3E-2746-49C4-B7DF-F141820F54F6}" ParallelWalk="True">
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="XLMAIN" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Lista de inventario .xlsx - Microsoft Excel" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="XLDESK" Key="{C174F566-EC31-450F-80F5-1692B69651CB}" ParallelWalk="True">
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="XLDESK" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="EXCEL7" Key="{8B150E1F-9DE6-4627-87D8-17974DBD739A}" ParallelWalk="True">
+												<TypeInfo Item0="{9221A445-7E44-4ED4-ABE2-B84BD3D252DE}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="EXCEL7" Type="5" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value PropertyType="0" Value="Lista de inventario .xlsx" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="EXCEL6" Key="{D4ADC77E-B37E-46C3-83CA-0CA8CF293EA9}" ParallelWalk="True">
+												<Image FileName="2047080747" Left="210" Top="348" Right="341" Bottom="387" />
+												<TypeInfo Item0="{9221A445-7E44-4ED4-ABE2-B84BD3D252DE}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="EXCEL6" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="EXCEL2" Key="{7D1B9B37-C700-45E5-B4CC-E0EF1D3DE5D0}" ParallelWalk="True">
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="EXCEL2" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="2" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="toolbarRibbon" Key="{15AFD7EE-0AC0-4003-9CF0-76AA5CA446FF}" ParallelWalk="True">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="ToolBar" Type="5" />
+													</Property>
+													<Property Name="Caption">
+														<Value PropertyType="0" Value="Ribbon" Type="5" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Ribbon" Key="{56442F2B-8EFD-42DF-BA68-6830290A2E5F}" ParallelWalk="True">
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="MsoWorkPane" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="Ribbon" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="NUIPane" Key="{476DE096-F0FF-4383-9AE2-CE8DEF42C378}" ParallelWalk="True">
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="NUIPane" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="NetUIHWND" Key="{3DDC7892-2C1F-46E2-8186-EB6B5A11D500}" ParallelWalk="True">
+																		<TypeInfo Item0="{9221A445-7E44-4ED4-ABE2-B84BD3D252DE}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="NetUIHWND" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndNUIDialog" Key="{43A64BAA-4110-4DE1-827B-B490DB824002}" ParallelWalk="True">
+								<Image FileName="-316514495" Left="0" Top="0" Right="574" Bottom="452" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="NUIDialog" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Asistente para la activación de Microsoft Office" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="NetUIHWND" Key="{C5D3425C-8ED4-4FE9-9F57-9DA90340B01A}" ParallelWalk="True">
+										<Image FileName="-316514495" Left="3" Top="26" Right="571" Bottom="449" />
+										<TypeInfo Item0="{9221A445-7E44-4ED4-ABE2-B84BD3D252DE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="NetUIHWND" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Microsoft_Windows_ShellExperienceHost" Key="{FD8D6FAB-7AD0-454F-B2B0-C4E5BE67443D}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="Microsoft.Windows.ShellExperienceHost" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Iniciar" Key="{30B3EA7E-85C0-4105-AB6C-3B57973D55D2}" ParallelWalk="True">
+								<Image FileName="1349072639" Left="0" Top="0" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value PropertyType="0" Value="XAML" Type="5" />
+									</Property>
+									<Property Name="ClassName">
+										<Value PropertyType="0" Value="Windows.UI.Core.CoreWindow" Type="5" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value PropertyType="0" Value="janela" Type="5" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value PropertyType="0" Value="Iniciar" Type="5" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value PropertyType="0" Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SplitViewFrameXAMLWindow" Key="{00407C0F-62A4-492F-AEDC-72AAF435067C}" ParallelWalk="True">
+										<Image FileName="1349072639" Left="0" Top="146" Right="972" Bottom="728" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value PropertyType="0" Value="XAML" Type="5" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value PropertyType="0" Value="janela" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="SplitViewFrameXAMLWindow" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Blocos_fixados" Key="{836E6441-3A59-4CC3-A7C3-377ECF042798}" ParallelWalk="True">
+												<Image FileName="1349072639" Left="320" Top="146" Right="972" Bottom="728" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TileListView" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="lista" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="Blocos_fixados" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Cabe_alho_do_grupo_La_vida_en_un_vistazo" Key="{1C9CF186-308D-4C92-8004-E140988CDDCD}" ParallelWalk="True">
+														<Image FileName="1349072639" Left="320" Top="159" Right="636" Bottom="191" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TileListViewItem" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="grupo" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Cabeçalho_do_grupo_La_vida_en_un_vistazo" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Pessoas" Key="{D9FB53B3-C5FF-4E1D-94A4-AD2A852E96EC}" ParallelWalk="True">
+																<Image FileName="1349072639" Left="428" Top="403" Right="528" Bottom="503" />
+																<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TileListViewItem" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="item de lista" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="Pessoas" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Microsoft_People" Key="{3414325F-54F3-46D8-A1F7-F9A5EA00C53E}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="Microsoft.People" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Pessoas" Key="{E737C3EF-F36E-46EF-A551-A268E061D98C}" ParallelWalk="True">
+								<Image FileName="-1838984754" Left="8" Top="32" Right="808" Bottom="632" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value PropertyType="0" Value="XAML" Type="5" />
+									</Property>
+									<Property Name="ClassName">
+										<Value PropertyType="0" Value="Windows.UI.Core.CoreWindow" Type="5" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value PropertyType="0" Value="janela" Type="5" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value PropertyType="0" Value="Pessoas" Type="5" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value PropertyType="0" Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="UniversalMainPage" Key="{88BDC6B6-DF54-4DB5-8C38-7ABFFB4E7D03}" ParallelWalk="True">
+										<Image FileName="-1838984754" Left="8" Top="32" Right="808" Bottom="632" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value PropertyType="0" Value="XAML" Type="5" />
+											</Property>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="UniversalMainPage" Type="5" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value PropertyType="0" Value="personalizado" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="UniversalMainPage" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ContactsView" Key="{2D2FDB69-AA96-4F17-892B-9954F8B5ABA4}" ParallelWalk="True">
+												<Image FileName="-1838984754" Left="8" Top="32" Right="808" Bottom="632" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="AutomatableGrid" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="personalizado" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="ContactsView" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="ContactCardPage" Key="{A5D3F7F2-D158-43BC-BA25-2A4CBD7A37B1}" ParallelWalk="True">
+														<Image FileName="-1280130689" Left="8" Top="32" Right="808" Bottom="632" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="ContactCardPage" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="personalizado" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="ContactCardPage" Type="5" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Cart_o_de_visita" Key="{D1721C7D-0E69-4674-B407-5D09D320308A}" ParallelWalk="True">
+																<Image FileName="-1280130689" Left="8" Top="32" Right="808" Bottom="632" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="NamedContainerAutomationPeer" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="grupo" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="Cartão_de_visita" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ContactInfoEditPanelPage" Key="{C46BDA68-16D5-4907-8EE9-4EE3C6435624}" ParallelWalk="True">
+																		<Image FileName="-1280130689" Left="9" Top="33" Right="807" Bottom="631" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value PropertyType="0" Value="XAML" Type="5" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="ContactInfoEditPanelPage" Type="5" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value PropertyType="0" Value="personalizado" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="ContactInfoEditPanelPage" Type="5" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value PropertyType="0" Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="MainPageGrid" Key="{5D6F8794-E232-49DC-8408-7E4092C83400}" ParallelWalk="True">
+																				<Image FileName="-1280130689" Left="9" Top="33" Right="807" Bottom="631" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value PropertyType="0" Value="XAML" Type="5" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="AutomatableGrid" Type="5" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value PropertyType="0" Value="personalizado" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="MainPageGrid" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="ScrollViewer" Key="{13E117D5-A776-4EAD-A98F-25CD6BB83647}" ParallelWalk="True">
+																						<Image FileName="-1280130689" Left="9" Top="89" Right="807" Bottom="575" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value PropertyType="0" Value="XAML" Type="5" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value PropertyType="0" Value="ScrollViewer" Type="5" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value PropertyType="0" Value="painel" Type="5" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value PropertyType="0" Value="ScrollViewer" Type="5" />
+																							</Property>
+																							<Property Name="ObjectGroupIndex">
+																								<Value PropertyType="0" Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="ContactEditLinkedPageSlabItems" Key="{62D0BACD-9F06-49E6-9205-0CAAF4A65E3A}" ParallelWalk="True">
+																								<Image FileName="-1280130689" Left="21" Top="241" Right="537" Bottom="575" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value PropertyType="0" Value="XAML" Type="5" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value PropertyType="0" Value="ListView" Type="5" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value PropertyType="0" Value="lista" Type="5" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value PropertyType="0" Value="ContactEditLinkedPageSlabItems" Type="5" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Nome" Key="{D254FBFD-1B5C-4F7F-B028-A72FDA987DC3}" ParallelWalk="True">
+																										<Image FileName="-1280130689" Left="21" Top="241" Right="537" Bottom="346" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value PropertyType="0" Value="XAML" Type="5" />
+																											</Property>
+																											<Property Name="ClassName">
+																												<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value PropertyType="0" Value="item de lista" Type="5" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value PropertyType="0" Value="Nome" Type="5" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="Nome_2" Key="{64AE0941-A640-4227-A40C-58C750EBD1AE}" ParallelWalk="True">
+																												<Image FileName="-1280130689" Left="21" Top="285" Right="505" Bottom="317" />
+																												<Properties>
+																													<Property Name="FrameworkId">
+																														<Value PropertyType="0" Value="XAML" Type="5" />
+																													</Property>
+																													<Property Name="ClassName">
+																														<Value PropertyType="0" Value="TextBox" Type="5" />
+																													</Property>
+																													<Property Name="LocalizedControlType">
+																														<Value PropertyType="0" Value="editar" Type="5" />
+																													</Property>
+																													<Property Name="ObjectIdentifier">
+																														<Value PropertyType="0" Value="Nome_2" Type="5" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="ContentElement" Key="{30597E36-7046-479A-9094-055B62D06E97}" ParallelWalk="True">
+																														<Image FileName="-1280130689" Left="23" Top="287" Right="503" Bottom="315" />
+																														<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																														<Properties>
+																															<Property Name="FrameworkId">
+																																<Value PropertyType="0" Value="XAML" Type="5" />
+																															</Property>
+																															<Property Name="ClassName">
+																																<Value PropertyType="0" Value="ScrollViewer" Type="5" />
+																															</Property>
+																															<Property Name="LocalizedControlType">
+																																<Value PropertyType="0" Value="painel" Type="5" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value PropertyType="0" Value="ContentElement" Type="5" />
+																															</Property>
+																														</Properties>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																									<Child Name="Telefone_celular" Key="{BAB350A3-E8DA-4C9E-AA76-29D8A14EB5B3}" ParallelWalk="True">
+																										<Image FileName="-661589099" Left="21" Top="346" Right="537" Bottom="436" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value PropertyType="0" Value="XAML" Type="5" />
+																											</Property>
+																											<Property Name="ClassName">
+																												<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value PropertyType="0" Value="item de lista" Type="5" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value PropertyType="0" Value="Telefone_celular" Type="5" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="Telefone_celular_2" Key="{C9318720-BC78-4B88-99D3-9D3879828DD2}" ParallelWalk="True">
+																												<Image FileName="-661589099" Left="21" Top="392" Right="537" Bottom="424" />
+																												<Properties>
+																													<Property Name="FrameworkId">
+																														<Value PropertyType="0" Value="XAML" Type="5" />
+																													</Property>
+																													<Property Name="ClassName">
+																														<Value PropertyType="0" Value="TextBox" Type="5" />
+																													</Property>
+																													<Property Name="LocalizedControlType">
+																														<Value PropertyType="0" Value="editar" Type="5" />
+																													</Property>
+																													<Property Name="ObjectIdentifier">
+																														<Value PropertyType="0" Value="Telefone_celular_2" Type="5" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="ContentElement" Key="{D181B443-888C-45F1-A72D-CD6EB2956AB6}" ParallelWalk="True">
+																														<Image FileName="-661589099" Left="23" Top="394" Right="535" Bottom="422" />
+																														<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																														<Properties>
+																															<Property Name="FrameworkId">
+																																<Value PropertyType="0" Value="XAML" Type="5" />
+																															</Property>
+																															<Property Name="ClassName">
+																																<Value PropertyType="0" Value="ScrollViewer" Type="5" />
+																															</Property>
+																															<Property Name="LocalizedControlType">
+																																<Value PropertyType="0" Value="painel" Type="5" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value PropertyType="0" Value="ContentElement" Type="5" />
+																															</Property>
+																														</Properties>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																									<Child Name="Email_pessoal" Key="{D2C73E54-D498-4717-BE49-0854B367D538}" ParallelWalk="True">
+																										<Image FileName="-2021652687" Left="21" Top="487" Right="537" Bottom="575" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value PropertyType="0" Value="XAML" Type="5" />
+																											</Property>
+																											<Property Name="ClassName">
+																												<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value PropertyType="0" Value="item de lista" Type="5" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value PropertyType="0" Value="Email_pessoal" Type="5" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="Email_pessoal_2" Key="{6D0CDD4D-378E-4B2F-873C-7D395E289C26}" ParallelWalk="True">
+																												<Image FileName="-2021652687" Left="21" Top="533" Right="537" Bottom="565" />
+																												<Properties>
+																													<Property Name="FrameworkId">
+																														<Value PropertyType="0" Value="XAML" Type="5" />
+																													</Property>
+																													<Property Name="ClassName">
+																														<Value PropertyType="0" Value="TextBox" Type="5" />
+																													</Property>
+																													<Property Name="LocalizedControlType">
+																														<Value PropertyType="0" Value="editar" Type="5" />
+																													</Property>
+																													<Property Name="ObjectIdentifier">
+																														<Value PropertyType="0" Value="Email_pessoal_2" Type="5" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="ContentElement" Key="{B22CD0D7-8DC6-404B-A3C3-90B825038A86}" ParallelWalk="True">
+																														<Image FileName="-2021652687" Left="23" Top="535" Right="535" Bottom="563" />
+																														<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																														<Properties>
+																															<Property Name="FrameworkId">
+																																<Value PropertyType="0" Value="XAML" Type="5" />
+																															</Property>
+																															<Property Name="ClassName">
+																																<Value PropertyType="0" Value="ScrollViewer" Type="5" />
+																															</Property>
+																															<Property Name="LocalizedControlType">
+																																<Value PropertyType="0" Value="painel" Type="5" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value PropertyType="0" Value="ContentElement" Type="5" />
+																															</Property>
+																														</Properties>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																									<Child Name="Adicionar_Endere_o" Key="{6ED8F2AB-6B31-4715-97C2-B0EC3FEE6B2A}" ParallelWalk="True">
+																										<Image FileName="1505074788" Left="21" Top="459" Right="537" Bottom="510" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value PropertyType="0" Value="XAML" Type="5" />
+																											</Property>
+																											<Property Name="ClassName">
+																												<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value PropertyType="0" Value="item de lista" Type="5" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value PropertyType="0" Value="Adicionar_Endereço" Type="5" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="Adicionar_Endere_o" Key="{3834C134-853C-428D-962F-34630AC4C6D1}" ParallelWalk="True">
+																												<Image FileName="1505074788" Left="21" Top="459" Right="125" Bottom="493" />
+																												<Properties>
+																													<Property Name="FrameworkId">
+																														<Value PropertyType="0" Value="XAML" Type="5" />
+																													</Property>
+																													<Property Name="ClassName">
+																														<Value PropertyType="0" Value="Hyperlink" Type="5" />
+																													</Property>
+																													<Property Name="LocalizedControlType">
+																														<Value PropertyType="0" Value="caixa de combinação" Type="5" />
+																													</Property>
+																													<Property Name="ObjectIdentifier">
+																														<Value PropertyType="0" Value="Adicionar_Endereço" Type="5" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="Endere_o" Key="{CD564E1B-DE3F-4591-A515-66BA8EF403E0}" ParallelWalk="True">
+																														<Image FileName="1505074788" Left="54" Top="466" Right="116" Bottom="486" />
+																														<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																														<Properties>
+																															<Property Name="FrameworkId">
+																																<Value PropertyType="0" Value="XAML" Type="5" />
+																															</Property>
+																															<Property Name="ClassName">
+																																<Value PropertyType="0" Value="TextBlock" Type="5" />
+																															</Property>
+																															<Property Name="LocalizedControlType">
+																																<Value PropertyType="0" Value="texto" Type="5" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value PropertyType="0" Value="Endereço" Type="5" />
+																															</Property>
+																														</Properties>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																									<Child Name="Endere_o_residencial_" Key="{D5315680-F7C2-4D0D-AA79-3A40B200CCE3}" ParallelWalk="True">
+																										<Image FileName="-1147748600" Left="21" Top="459" Right="537" Bottom="575" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value PropertyType="0" Value="XAML" Type="5" />
+																											</Property>
+																											<Property Name="ClassName">
+																												<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value PropertyType="0" Value="item de lista" Type="5" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value PropertyType="0" Value="Endereço_residencial_" Type="5" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="ContactEditAddressFields" Key="{EC23FD58-4289-49EC-A721-47F844217792}" ParallelWalk="True">
+																												<Image FileName="-1147748600" Left="21" Top="505" Right="537" Bottom="575" />
+																												<Properties>
+																													<Property Name="FrameworkId">
+																														<Value PropertyType="0" Value="XAML" Type="5" />
+																													</Property>
+																													<Property Name="ClassName">
+																														<Value PropertyType="0" Value="ListView" Type="5" />
+																													</Property>
+																													<Property Name="LocalizedControlType">
+																														<Value PropertyType="0" Value="lista" Type="5" />
+																													</Property>
+																													<Property Name="ObjectIdentifier">
+																														<Value PropertyType="0" Value="ContactEditAddressFields" Type="5" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="Rua" Key="{F889D742-0A3E-4507-A744-2526824763EB}" ParallelWalk="True">
+																														<Image FileName="-1147748600" Left="39" Top="505" Right="519" Bottom="557" />
+																														<Properties>
+																															<Property Name="FrameworkId">
+																																<Value PropertyType="0" Value="XAML" Type="5" />
+																															</Property>
+																															<Property Name="ClassName">
+																																<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																															</Property>
+																															<Property Name="LocalizedControlType">
+																																<Value PropertyType="0" Value="item de lista" Type="5" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value PropertyType="0" Value="Rua" Type="5" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="Rua" Key="{1029670A-9D70-4353-B51F-0D5EAEB9AE16}" ParallelWalk="True">
+																																<Image FileName="-1147748600" Left="39" Top="513" Right="519" Bottom="545" />
+																																<Properties>
+																																	<Property Name="FrameworkId">
+																																		<Value PropertyType="0" Value="XAML" Type="5" />
+																																	</Property>
+																																	<Property Name="ClassName">
+																																		<Value PropertyType="0" Value="TextBox" Type="5" />
+																																	</Property>
+																																	<Property Name="LocalizedControlType">
+																																		<Value PropertyType="0" Value="editar" Type="5" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value PropertyType="0" Value="Rua" Type="5" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="ContentElement" Key="{12430A2A-E057-4113-B9B1-1A05177F7948}" ParallelWalk="True">
+																																		<Image FileName="-1147748600" Left="41" Top="515" Right="517" Bottom="543" />
+																																		<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																																		<Properties>
+																																			<Property Name="FrameworkId">
+																																				<Value PropertyType="0" Value="XAML" Type="5" />
+																																			</Property>
+																																			<Property Name="ClassName">
+																																				<Value PropertyType="0" Value="ScrollViewer" Type="5" />
+																																			</Property>
+																																			<Property Name="LocalizedControlType">
+																																				<Value PropertyType="0" Value="painel" Type="5" />
+																																			</Property>
+																																			<Property Name="ObjectIdentifier">
+																																				<Value PropertyType="0" Value="ContentElement" Type="5" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="Cidade" Key="{C3DD1326-A11E-4102-94A0-A6D5B5042330}" ParallelWalk="True">
+																														<Image FileName="223622361" Left="39" Top="251" Right="519" Bottom="303" />
+																														<Properties>
+																															<Property Name="FrameworkId">
+																																<Value PropertyType="0" Value="XAML" Type="5" />
+																															</Property>
+																															<Property Name="ClassName">
+																																<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																															</Property>
+																															<Property Name="LocalizedControlType">
+																																<Value PropertyType="0" Value="item de lista" Type="5" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value PropertyType="0" Value="Cidade" Type="5" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="Cidade" Key="{AA14F6DF-94ED-4F16-9D78-9D347842E283}" ParallelWalk="True">
+																																<Image FileName="223622361" Left="39" Top="259" Right="519" Bottom="291" />
+																																<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																																<Properties>
+																																	<Property Name="FrameworkId">
+																																		<Value PropertyType="0" Value="XAML" Type="5" />
+																																	</Property>
+																																	<Property Name="ClassName">
+																																		<Value PropertyType="0" Value="TextBox" Type="5" />
+																																	</Property>
+																																	<Property Name="LocalizedControlType">
+																																		<Value PropertyType="0" Value="editar" Type="5" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value PropertyType="0" Value="Cidade" Type="5" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="ContentElement" Key="{B86AF177-1503-478C-BF17-9D319A1A2C90}" ParallelWalk="True">
+																																		<Image FileName="223622361" Left="41" Top="261" Right="517" Bottom="289" />
+																																		<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																																		<Properties>
+																																			<Property Name="FrameworkId">
+																																				<Value PropertyType="0" Value="XAML" Type="5" />
+																																			</Property>
+																																			<Property Name="ClassName">
+																																				<Value PropertyType="0" Value="ScrollViewer" Type="5" />
+																																			</Property>
+																																			<Property Name="LocalizedControlType">
+																																				<Value PropertyType="0" Value="painel" Type="5" />
+																																			</Property>
+																																			<Property Name="ObjectIdentifier">
+																																				<Value PropertyType="0" Value="ContentElement" Type="5" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="Estado_munic_pio" Key="{DD720D61-0C4F-4984-98EC-241285C36BA7}" ParallelWalk="True">
+																														<Image FileName="625630901" Left="39" Top="303" Right="519" Bottom="355" />
+																														<Properties>
+																															<Property Name="FrameworkId">
+																																<Value PropertyType="0" Value="XAML" Type="5" />
+																															</Property>
+																															<Property Name="ClassName">
+																																<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																															</Property>
+																															<Property Name="LocalizedControlType">
+																																<Value PropertyType="0" Value="item de lista" Type="5" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value PropertyType="0" Value="Estado_município" Type="5" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="Estado_munic_pio" Key="{3CB7042A-6B9E-4CDE-B295-1EDAFFE36DC3}" ParallelWalk="True">
+																																<Image FileName="625630901" Left="39" Top="311" Right="519" Bottom="343" />
+																																<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																																<Properties>
+																																	<Property Name="FrameworkId">
+																																		<Value PropertyType="0" Value="XAML" Type="5" />
+																																	</Property>
+																																	<Property Name="ClassName">
+																																		<Value PropertyType="0" Value="TextBox" Type="5" />
+																																	</Property>
+																																	<Property Name="LocalizedControlType">
+																																		<Value PropertyType="0" Value="editar" Type="5" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value PropertyType="0" Value="Estado_município" Type="5" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="ContentElement" Key="{3D5B1C64-7726-4AC9-A818-FD5F19775FF9}" ParallelWalk="True">
+																																		<Image FileName="625630901" Left="41" Top="313" Right="517" Bottom="341" />
+																																		<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																																		<Properties>
+																																			<Property Name="FrameworkId">
+																																				<Value PropertyType="0" Value="XAML" Type="5" />
+																																			</Property>
+																																			<Property Name="ClassName">
+																																				<Value PropertyType="0" Value="ScrollViewer" Type="5" />
+																																			</Property>
+																																			<Property Name="LocalizedControlType">
+																																				<Value PropertyType="0" Value="painel" Type="5" />
+																																			</Property>
+																																			<Property Name="ObjectIdentifier">
+																																				<Value PropertyType="0" Value="ContentElement" Type="5" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="CEP" Key="{4182D9C2-C56F-4F8D-BC50-F2C2AA927717}" ParallelWalk="True">
+																														<Image FileName="692081424" Left="39" Top="355" Right="519" Bottom="407" />
+																														<Properties>
+																															<Property Name="FrameworkId">
+																																<Value PropertyType="0" Value="XAML" Type="5" />
+																															</Property>
+																															<Property Name="ClassName">
+																																<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																															</Property>
+																															<Property Name="LocalizedControlType">
+																																<Value PropertyType="0" Value="item de lista" Type="5" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value PropertyType="0" Value="CEP" Type="5" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="CEP" Key="{658A42D4-9E6E-48C8-995C-486AB57336BE}" ParallelWalk="True">
+																																<Image FileName="692081424" Left="39" Top="363" Right="519" Bottom="395" />
+																																<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																																<Properties>
+																																	<Property Name="FrameworkId">
+																																		<Value PropertyType="0" Value="XAML" Type="5" />
+																																	</Property>
+																																	<Property Name="ClassName">
+																																		<Value PropertyType="0" Value="TextBox" Type="5" />
+																																	</Property>
+																																	<Property Name="LocalizedControlType">
+																																		<Value PropertyType="0" Value="editar" Type="5" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value PropertyType="0" Value="CEP" Type="5" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="ContentElement" Key="{0833CE63-E99D-4040-B3F6-B3DDC36DAA07}" ParallelWalk="True">
+																																		<Image FileName="692081424" Left="41" Top="365" Right="517" Bottom="393" />
+																																		<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																																		<Properties>
+																																			<Property Name="FrameworkId">
+																																				<Value PropertyType="0" Value="XAML" Type="5" />
+																																			</Property>
+																																			<Property Name="ClassName">
+																																				<Value PropertyType="0" Value="ScrollViewer" Type="5" />
+																																			</Property>
+																																			<Property Name="LocalizedControlType">
+																																				<Value PropertyType="0" Value="painel" Type="5" />
+																																			</Property>
+																																			<Property Name="ObjectIdentifier">
+																																				<Value PropertyType="0" Value="ContentElement" Type="5" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="Pa_s_regi_o" Key="{0D1B3A35-69C0-4C2E-9A00-F09B4FD676BD}" ParallelWalk="True">
+																														<Image FileName="-980528543" Left="39" Top="407" Right="519" Bottom="459" />
+																														<Properties>
+																															<Property Name="FrameworkId">
+																																<Value PropertyType="0" Value="XAML" Type="5" />
+																															</Property>
+																															<Property Name="ClassName">
+																																<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																															</Property>
+																															<Property Name="LocalizedControlType">
+																																<Value PropertyType="0" Value="item de lista" Type="5" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value PropertyType="0" Value="País_região" Type="5" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="Pa_s_regi_o" Key="{4D93749C-283E-458E-B85A-73B67EE28123}" ParallelWalk="True">
+																																<Image FileName="-980528543" Left="39" Top="415" Right="519" Bottom="447" />
+																																<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																																<Properties>
+																																	<Property Name="FrameworkId">
+																																		<Value PropertyType="0" Value="XAML" Type="5" />
+																																	</Property>
+																																	<Property Name="ClassName">
+																																		<Value PropertyType="0" Value="TextBox" Type="5" />
+																																	</Property>
+																																	<Property Name="LocalizedControlType">
+																																		<Value PropertyType="0" Value="editar" Type="5" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value PropertyType="0" Value="País_região" Type="5" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="ContentElement" Key="{323E57F1-1CC3-4B50-86C6-5FF7C7471253}" ParallelWalk="True">
+																																		<Image FileName="-980528543" Left="41" Top="417" Right="517" Bottom="445" />
+																																		<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																																		<Properties>
+																																			<Property Name="FrameworkId">
+																																				<Value PropertyType="0" Value="XAML" Type="5" />
+																																			</Property>
+																																			<Property Name="ClassName">
+																																				<Value PropertyType="0" Value="ScrollViewer" Type="5" />
+																																			</Property>
+																																			<Property Name="LocalizedControlType">
+																																				<Value PropertyType="0" Value="painel" Type="5" />
+																																			</Property>
+																																			<Property Name="ObjectIdentifier">
+																																				<Value PropertyType="0" Value="ContentElement" Type="5" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																									<Child Name="Adicionar_Email" Key="{A1F11217-8A57-4254-A502-FCB8B495C166}" ParallelWalk="True">
+																										<Image FileName="30481164" Left="-339" Top="-49" Right="-339" Bottom="-49" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value PropertyType="0" Value="XAML" Type="5" />
+																											</Property>
+																											<Property Name="ClassName">
+																												<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value PropertyType="0" Value="item de lista" Type="5" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value PropertyType="0" Value="Adicionar_Email" Type="5" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="Adicionar_Email" Key="{03A789CD-9224-4FA2-8AF5-76F3B582C7C2}" ParallelWalk="True">
+																												<Image FileName="30481164" Left="-339" Top="-49" Right="-339" Bottom="-49" />
+																												<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																												<Properties>
+																													<Property Name="FrameworkId">
+																														<Value PropertyType="0" Value="XAML" Type="5" />
+																													</Property>
+																													<Property Name="ClassName">
+																														<Value PropertyType="0" Value="Hyperlink" Type="5" />
+																													</Property>
+																													<Property Name="LocalizedControlType">
+																														<Value PropertyType="0" Value="caixa de combinação" Type="5" />
+																													</Property>
+																													<Property Name="ObjectIdentifier">
+																														<Value PropertyType="0" Value="Adicionar_Email" Type="5" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																							<Child Name="Vertical" Key="{EA46AC63-429D-4443-9FF1-B1555F83AF51}" ParallelWalk="True">
+																								<Image FileName="1970274772" Left="791" Top="89" Right="807" Bottom="575" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value PropertyType="0" Value="XAML" Type="5" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value PropertyType="0" Value="ScrollBar" Type="5" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value PropertyType="0" Value="barra de rolagem" Type="5" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value PropertyType="0" Value="Vertical" Type="5" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Polegar_Vertical" Key="{7ED2F0DE-A79E-4C79-8CB7-5C6F6E2A3DF0}" ParallelWalk="True">
+																										<Image FileName="1970274772" Left="791" Top="105" Right="807" Bottom="442" />
+																										<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value PropertyType="0" Value="XAML" Type="5" />
+																											</Property>
+																											<Property Name="ClassName">
+																												<Value PropertyType="0" Value="Thumb" Type="5" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value PropertyType="0" Value="elevador" Type="5" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value PropertyType="0" Value="Polegar_Vertical" Type="5" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																							<Child Name="Adicionar_foto" Key="{D36FE186-8FB6-46E3-898D-CB6F7E00B035}" ParallelWalk="True">
+																								<Image FileName="-1758737466" Left="21" Top="97" Right="145" Bottom="221" />
+																								<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value PropertyType="0" Value="XAML" Type="5" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value PropertyType="0" Value="Button" Type="5" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value PropertyType="0" Value="botão" Type="5" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value PropertyType="0" Value="Adicionar_foto" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="Salvar" Key="{4F8420C9-22D3-48DB-AD47-DD236F2C5939}" ParallelWalk="True">
+																						<Image FileName="-729824247" Left="21" Top="587" Right="275" Bottom="619" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value PropertyType="0" Value="XAML" Type="5" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value PropertyType="0" Value="Button" Type="5" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value PropertyType="0" Value="botão" Type="5" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value PropertyType="0" Value="Salvar" Type="5" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="ApplicationBar" Key="{9CDC7A22-5AD3-40C8-A51D-BF71EFA3D3E0}" ParallelWalk="True">
+																		<Image FileName="-21785869" Left="9" Top="32" Right="77" Bottom="68" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value PropertyType="0" Value="XAML" Type="5" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="ApplicationBar" Type="5" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value PropertyType="0" Value="barra de aplicativos" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="ApplicationBar" Type="5" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value PropertyType="0" Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="voltar" Key="{C36CA343-CEAF-4CC2-AB22-91921946158A}" ParallelWalk="True">
+																				<Image FileName="-21785869" Left="10" Top="32" Right="76" Bottom="68" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value PropertyType="0" Value="XAML" Type="5" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="AppBarButton" Type="5" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value PropertyType="0" Value="botão da barra de aplicativos" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="voltar" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="Doannis_Delfino" Key="{EA2DA4E6-ABA7-4F21-BF03-11A63F0E5036}" ParallelWalk="True">
+																		<Image FileName="1477438314" Left="33" Top="93" Right="117" Bottom="177" />
+																		<TypeInfo Item0="{1416F746-0B3E-41F4-9416-2AE176C18EBC}" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value PropertyType="0" Value="XAML" Type="5" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="Windows.UI.Xaml.Controls.PersonPicture" Type="5" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value PropertyType="0" Value="texto" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="Doannis_Delfino" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="SearchCommandBar" Key="{39B92CD8-2027-481A-A33B-D023C8E18B08}" ParallelWalk="True">
+														<Image FileName="-1838984754" Left="604" Top="32" Right="808" Bottom="68" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="ApplicationBar" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="barra de aplicativos" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="SearchCommandBar" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Novo_contato" Key="{4157786C-0A17-41FC-9D4F-C8064C17BBCD}" ParallelWalk="True">
+																<Image FileName="-1838984754" Left="605" Top="32" Right="671" Bottom="68" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="AppBarButton" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="botão da barra de aplicativos" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="Novo_contato" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="Lista_de_contatos" Key="{430764D0-B2C0-4664-80EB-C2024E039EBC}" ParallelWalk="True">
+														<Image FileName="-1213228371" Left="8" Top="80" Right="808" Bottom="632" />
+														<TypeInfo Item0="{1416F746-0B3E-41F4-9416-2AE176C18EBC}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="NamedContainerAutomationPeer" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="grupo" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Lista_de_contatos" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="SeZo" Key="{80C05588-169F-44E4-A29A-3DB763CDEDCE}" ParallelWalk="True">
+																<Image FileName="-1213228371" Left="8" Top="110" Right="808" Bottom="632" />
+																<TypeInfo Item0="{7C63FD82-61E1-4ED0-BA79-B58CCBBACB12}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="SemanticZoom" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="zoom semântico" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="SeZo" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ContactsList" Key="{8E1F16CC-E405-448F-AEDE-3D22C18CB371}" ParallelWalk="True">
+																		<Image FileName="-1213228371" Left="8" Top="110" Right="808" Bottom="574" />
+																		<TypeInfo Item0="{1416F746-0B3E-41F4-9416-2AE176C18EBC}" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value PropertyType="0" Value="XAML" Type="5" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="ListView" Type="5" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value PropertyType="0" Value="lista" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="ContactsList" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="L" Key="{B0F94C08-5180-41DA-9443-22A20D897F4F}" ParallelWalk="True">
+																				<Image FileName="-1213228371" Left="8" Top="434" Right="808" Bottom="526" />
+																				<TypeInfo Item0="{1416F746-0B3E-41F4-9416-2AE176C18EBC}" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value PropertyType="0" Value="XAML" Type="5" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="ListViewHeaderItem" Type="5" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value PropertyType="0" Value="grupo" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="L" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Lacey_Chapman" Key="{9331F336-55CE-4638-8E01-1F2C8B54C3A4}" ParallelWalk="True">
+																						<Image FileName="-1213228371" Left="8" Top="478" Right="808" Bottom="526" />
+																						<TypeInfo Item0="{1416F746-0B3E-41F4-9416-2AE176C18EBC}" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value PropertyType="0" Value="XAML" Type="5" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value PropertyType="0" Value="item de lista" Type="5" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value PropertyType="0" Value="Lacey_Chapman" Type="5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Lacey_Chapman" Key="{894C0D1B-5C33-4FA6-9D82-4D0D045254A0}" ParallelWalk="True">
+																								<Image FileName="-1213228371" Left="20" Top="480" Right="808" Bottom="524" />
+																								<TypeInfo Item0="{1416F746-0B3E-41F4-9416-2AE176C18EBC}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value PropertyType="0" Value="XAML" Type="5" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value PropertyType="0" Value="AutomatableGrid" Type="5" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value PropertyType="0" Value="personalizado" Type="5" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value PropertyType="0" Value="Lacey_Chapman" Type="5" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Lacey_Chapman_2" Key="{017AB405-F95D-4C1D-B806-98C7E4477AC0}" ParallelWalk="True">
+																										<Image FileName="-1213228371" Left="64" Top="492" Right="800" Bottom="512" />
+																										<TypeInfo Item0="{1416F746-0B3E-41F4-9416-2AE176C18EBC}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value PropertyType="0" Value="XAML" Type="5" />
+																											</Property>
+																											<Property Name="ClassName">
+																												<Value PropertyType="0" Value="TextBlock" Type="5" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value PropertyType="0" Value="texto" Type="5" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value PropertyType="0" Value="Lacey_Chapman_2" Type="5" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Popup" Key="{7F1DA240-F345-49A2-8E65-8E8D1CFA5565}" ParallelWalk="True">
+										<Image FileName="-156523415" Left="8" Top="497" Right="198" Bottom="611" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value PropertyType="0" Value="XAML" Type="5" />
+											</Property>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="Popup" Type="5" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value PropertyType="0" Value="janela" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="Popup" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MenuFlyout" Key="{B76E44B2-AC2C-4236-91CA-33786003A4A4}" ParallelWalk="True">
+												<Image FileName="-156523415" Left="8" Top="497" Right="198" Bottom="611" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="MenuFlyout" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="menu" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="MenuFlyout" Type="5" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Endere_o_residencial" Key="{482AE7F7-1F8F-4E0C-B45B-E4E33F6469E4}" ParallelWalk="True">
+														<Image FileName="-156523415" Left="9" Top="506" Right="197" Bottom="538" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="MenuFlyoutItem" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="item de menu" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Endereço_residencial" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Endere_o_residencial" Key="{0165CF98-7B5A-4E08-841F-9B48F87CE93B}" ParallelWalk="True">
+																<Image FileName="-156523415" Left="49" Top="511" Right="185" Bottom="531" />
+																<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="texto" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="Endereço_residencial" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="App" Key="{D1B8E83B-B2F5-4263-BA21-B85232D10684}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="App" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Fotos" Key="{CAB67851-BB14-4DF3-AD56-9A0114702D09}" ParallelWalk="True">
+								<Image FileName="-817587929" Left="8" Top="0" Right="508" Bottom="532" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value PropertyType="0" Value="XAML" Type="5" />
+									</Property>
+									<Property Name="ClassName">
+										<Value PropertyType="0" Value="Windows.UI.Core.CoreWindow" Type="5" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value PropertyType="0" Value="janela" Type="5" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value PropertyType="0" Value="Fotos" Type="5" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value PropertyType="0" Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Pivot" Key="{D3937B83-40CD-4104-8F65-4EDBC7C82334}" ParallelWalk="True">
+										<Image FileName="-817587929" Left="8" Top="80" Right="508" Bottom="532" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value PropertyType="0" Value="XAML" Type="5" />
+											</Property>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="Pivot" Type="5" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value PropertyType="0" Value="guia" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="Pivot" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Cole_o" Key="{534E54EB-C7DC-4A0C-B442-23B0AE54E304}" ParallelWalk="True">
+												<Image FileName="-817587929" Left="19" Top="80" Right="98" Bottom="128" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="PivotItem" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="item de tabulação" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="Coleção" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Cole_o" Key="{6D5250EA-8EAD-4FCE-A4C7-81C5ABD37060}" ParallelWalk="True">
+														<Image FileName="-817587929" Left="8" Top="137" Right="508" Bottom="532" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="SemanticZoom" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="zoom semântico" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Coleção" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Itens_agrupados_por_m_s" Key="{60009F11-BF58-42F7-9621-0305308A017D}" ParallelWalk="True">
+																<Image FileName="-817587929" Left="8" Top="137" Right="508" Bottom="531" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="ListView" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="lista" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="Itens_agrupados_por_mês" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="mar_o_de_2019" Key="{AA6A913E-D7D3-4B4B-8476-6D57580E508F}" ParallelWalk="True">
+																		<Image FileName="-817587929" Left="29" Top="136" Right="487" Bottom="531" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value PropertyType="0" Value="XAML" Type="5" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="ListViewHeaderItem" Type="5" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value PropertyType="0" Value="grupo" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="março_de_2019" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="ListViewItem" Key="{884BDB75-AFE2-465B-A100-44E801AA1199}" ParallelWalk="True">
+																				<Image FileName="-817587929" Left="31" Top="196" Right="485" Bottom="452" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value PropertyType="0" Value="XAML" Type="5" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value PropertyType="0" Value="item de lista" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value PropertyType="0" Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="IMG_20170707_1935_jpg" Key="{A863099F-9FD8-485D-8E16-73BCD62F5725}" ParallelWalk="True">
+																						<Image FileName="-817587929" Left="31" Top="196" Right="255" Bottom="452" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value PropertyType="0" Value="XAML" Type="5" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value PropertyType="0" Value="Button" Type="5" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value PropertyType="0" Value="Botão Item" Type="5" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value PropertyType="0" Value="IMG_20170707_1935_jpg" Type="5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="PART_Image" Key="{084EFC94-0D57-4587-B139-33BCF000E095}" ParallelWalk="True">
+																								<Image FileName="-817587929" Left="31" Top="196" Right="255" Bottom="452" />
+																								<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value PropertyType="0" Value="XAML" Type="5" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value PropertyType="0" Value="Image" Type="5" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value PropertyType="0" Value="Imagem" Type="5" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value PropertyType="0" Value="PART_Image" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Conclu_do" Key="{33612D09-2E83-4EC3-BA5D-A32A0E91DA21}" ParallelWalk="True">
+										<Image FileName="1833020956" Left="28" Top="480" Right="256" Bottom="512" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value PropertyType="0" Value="XAML" Type="5" />
+											</Property>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value PropertyType="0" Value="botão" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="Concluído" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -835,6 +2616,9 @@
 				<Child Name="ApplicationFrameTitleBarWindow" Owner="{FD3E4DDE-FC66-4C80-BF27-75688FB3A8F3}" />
 			</Child>
 			<Child Name="wndConfigura_es" Owner="{EEFE05E4-532F-427A-A4CB-985BDA1C854E}" />
+			<Child Name="wndPessoas" Owner="{4EB0E5D4-AEE0-4012-B97A-D7D59ABEF665}">
+				<Child Name="ApplicationFrameTitleBarWindow" Owner="{A99B0258-B508-4287-92C2-90AFB56747D4}" />
+			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{8DAF98BC-675C-4527-BFED-6CF494F94088}">
 			<Child Name="wnd2018" Owner="{C58D58A9-918B-4B83-8BA4-FC4318CC21F5}" />
@@ -845,6 +2629,24 @@
 				<Child Name="ReBarWindow32" Owner="{2ED4A306-261B-4689-8F1D-44D61624BBA8}">
 					<Child Name="MSTaskSwWClass" Owner="{BE39F0AE-7FCD-43DF-AFAB-2738FAFFDBBF}">
 						<Child Name="MSTaskListWClass" Owner="{9A8384A4-EB4E-48E8-9828-38952410403D}" />
+					</Child>
+				</Child>
+				<Child Name="Iniciar" Owner="{2B83E731-0847-4B24-85F7-DFB7D091F488}" />
+			</Child>
+			<Child Name="wndDesktopApp" Owner="{ACCFA7B0-194C-4C54-B596-2D7604749AC2}">
+				<Child Name="DesktopApp" Owner="{C79D9B21-8319-406B-8920-25A4FB7A514D}">
+					<Child Name="DUIViewWndClassName" Owner="{25C06001-854E-4C81-ACA3-D87F6AFF4BED}">
+						<Child Name="Painel_do_Explorer" Owner="{54197D4F-DEB6-4FFD-99D8-02E2FC4460C8}">
+							<Child Name="CtrlNotifySink" Owner="{B82681DE-33D1-439E-81B8-D5DF041E1D4F}">
+								<Child Name="ShellView" Owner="{026ABD56-4604-4C76-AA4A-C28C391EC13C}">
+									<Child Name="Modo_de_Exibi_o_de_Itens" Owner="{33D495C0-A9AF-4C81-9F45-48C25E658973}">
+										<Child Name="Lista_de_inventario_xlsx" Owner="{FC34EB03-13DB-4760-9460-5063204EEAEC}">
+											<Child Name="Nome" Owner="{E78B28D5-194A-483F-8285-87FF1762BB29}" />
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
 					</Child>
 				</Child>
 			</Child>
@@ -898,6 +2700,161 @@
 						</Child>
 					</Child>
 				</Child>
+			</Child>
+		</Child>
+		<Child Name="EXCEL" Owner="{0818A569-4B2A-4263-A8EF-66D3EC3C8337}">
+			<Child Name="wndXLMAIN" Owner="{9197AE3E-2746-49C4-B7DF-F141820F54F6}">
+				<Child Name="XLDESK" Owner="{C174F566-EC31-450F-80F5-1692B69651CB}">
+					<Child Name="EXCEL7" Owner="{8B150E1F-9DE6-4627-87D8-17974DBD739A}" />
+					<Child Name="EXCEL6" Owner="{D4ADC77E-B37E-46C3-83CA-0CA8CF293EA9}" />
+				</Child>
+				<Child Name="EXCEL2" Owner="{7D1B9B37-C700-45E5-B4CC-E0EF1D3DE5D0}">
+					<Child Name="toolbarRibbon" Owner="{15AFD7EE-0AC0-4003-9CF0-76AA5CA446FF}">
+						<Child Name="Ribbon" Owner="{56442F2B-8EFD-42DF-BA68-6830290A2E5F}">
+							<Child Name="NUIPane" Owner="{476DE096-F0FF-4383-9AE2-CE8DEF42C378}">
+								<Child Name="NetUIHWND" Owner="{3DDC7892-2C1F-46E2-8186-EB6B5A11D500}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndNUIDialog" Owner="{43A64BAA-4110-4DE1-827B-B490DB824002}">
+				<Child Name="NetUIHWND" Owner="{C5D3425C-8ED4-4FE9-9F57-9DA90340B01A}" />
+			</Child>
+		</Child>
+		<Child Name="Microsoft_Windows_ShellExperienceHost" Owner="{FD8D6FAB-7AD0-454F-B2B0-C4E5BE67443D}">
+			<Child Name="Iniciar" Owner="{30B3EA7E-85C0-4105-AB6C-3B57973D55D2}">
+				<Child Name="SplitViewFrameXAMLWindow" Owner="{00407C0F-62A4-492F-AEDC-72AAF435067C}">
+					<Child Name="Blocos_fixados" Owner="{836E6441-3A59-4CC3-A7C3-377ECF042798}">
+						<Child Name="Cabe_alho_do_grupo_La_vida_en_un_vistazo" Owner="{1C9CF186-308D-4C92-8004-E140988CDDCD}">
+							<Child Name="Pessoas" Owner="{D9FB53B3-C5FF-4E1D-94A4-AD2A852E96EC}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="Microsoft_People" Owner="{3414325F-54F3-46D8-A1F7-F9A5EA00C53E}">
+			<Child Name="Pessoas" Owner="{E737C3EF-F36E-46EF-A551-A268E061D98C}">
+				<Child Name="UniversalMainPage" Owner="{88BDC6B6-DF54-4DB5-8C38-7ABFFB4E7D03}">
+					<Child Name="ContactsView" Owner="{2D2FDB69-AA96-4F17-892B-9954F8B5ABA4}">
+						<Child Name="ContactCardPage" Owner="{A5D3F7F2-D158-43BC-BA25-2A4CBD7A37B1}">
+							<Child Name="Cart_o_de_visita" Owner="{D1721C7D-0E69-4674-B407-5D09D320308A}">
+								<Child Name="ContactInfoEditPanelPage" Owner="{C46BDA68-16D5-4907-8EE9-4EE3C6435624}">
+									<Child Name="MainPageGrid" Owner="{5D6F8794-E232-49DC-8408-7E4092C83400}">
+										<Child Name="ScrollViewer" Owner="{13E117D5-A776-4EAD-A98F-25CD6BB83647}">
+											<Child Name="ContactEditLinkedPageSlabItems" Owner="{62D0BACD-9F06-49E6-9205-0CAAF4A65E3A}">
+												<Child Name="Nome" Owner="{D254FBFD-1B5C-4F7F-B028-A72FDA987DC3}">
+													<Child Name="Nome_2" Owner="{64AE0941-A640-4227-A40C-58C750EBD1AE}">
+														<Child Name="ContentElement" Owner="{30597E36-7046-479A-9094-055B62D06E97}" />
+													</Child>
+												</Child>
+												<Child Name="Telefone_celular" Owner="{BAB350A3-E8DA-4C9E-AA76-29D8A14EB5B3}">
+													<Child Name="Telefone_celular_2" Owner="{C9318720-BC78-4B88-99D3-9D3879828DD2}">
+														<Child Name="ContentElement" Owner="{D181B443-888C-45F1-A72D-CD6EB2956AB6}" />
+													</Child>
+												</Child>
+												<Child Name="Email_pessoal" Owner="{D2C73E54-D498-4717-BE49-0854B367D538}">
+													<Child Name="Email_pessoal_2" Owner="{6D0CDD4D-378E-4B2F-873C-7D395E289C26}">
+														<Child Name="ContentElement" Owner="{B22CD0D7-8DC6-404B-A3C3-90B825038A86}" />
+													</Child>
+												</Child>
+												<Child Name="Adicionar_Endere_o" Owner="{6ED8F2AB-6B31-4715-97C2-B0EC3FEE6B2A}">
+													<Child Name="Adicionar_Endere_o" Owner="{3834C134-853C-428D-962F-34630AC4C6D1}">
+														<Child Name="Endere_o" Owner="{CD564E1B-DE3F-4591-A515-66BA8EF403E0}" />
+													</Child>
+												</Child>
+												<Child Name="Endere_o_residencial_" Owner="{D5315680-F7C2-4D0D-AA79-3A40B200CCE3}">
+													<Child Name="ContactEditAddressFields" Owner="{EC23FD58-4289-49EC-A721-47F844217792}">
+														<Child Name="Rua" Owner="{F889D742-0A3E-4507-A744-2526824763EB}">
+															<Child Name="Rua" Owner="{1029670A-9D70-4353-B51F-0D5EAEB9AE16}">
+																<Child Name="ContentElement" Owner="{12430A2A-E057-4113-B9B1-1A05177F7948}" />
+															</Child>
+														</Child>
+														<Child Name="Cidade" Owner="{C3DD1326-A11E-4102-94A0-A6D5B5042330}">
+															<Child Name="Cidade" Owner="{AA14F6DF-94ED-4F16-9D78-9D347842E283}">
+																<Child Name="ContentElement" Owner="{B86AF177-1503-478C-BF17-9D319A1A2C90}" />
+															</Child>
+														</Child>
+														<Child Name="Estado_munic_pio" Owner="{DD720D61-0C4F-4984-98EC-241285C36BA7}">
+															<Child Name="Estado_munic_pio" Owner="{3CB7042A-6B9E-4CDE-B295-1EDAFFE36DC3}">
+																<Child Name="ContentElement" Owner="{3D5B1C64-7726-4AC9-A818-FD5F19775FF9}" />
+															</Child>
+														</Child>
+														<Child Name="CEP" Owner="{4182D9C2-C56F-4F8D-BC50-F2C2AA927717}">
+															<Child Name="CEP" Owner="{658A42D4-9E6E-48C8-995C-486AB57336BE}">
+																<Child Name="ContentElement" Owner="{0833CE63-E99D-4040-B3F6-B3DDC36DAA07}" />
+															</Child>
+														</Child>
+														<Child Name="Pa_s_regi_o" Owner="{0D1B3A35-69C0-4C2E-9A00-F09B4FD676BD}">
+															<Child Name="Pa_s_regi_o" Owner="{4D93749C-283E-458E-B85A-73B67EE28123}">
+																<Child Name="ContentElement" Owner="{323E57F1-1CC3-4B50-86C6-5FF7C7471253}" />
+															</Child>
+														</Child>
+													</Child>
+												</Child>
+												<Child Name="Adicionar_Email" Owner="{A1F11217-8A57-4254-A502-FCB8B495C166}">
+													<Child Name="Adicionar_Email" Owner="{03A789CD-9224-4FA2-8AF5-76F3B582C7C2}" />
+												</Child>
+											</Child>
+											<Child Name="Vertical" Owner="{EA46AC63-429D-4443-9FF1-B1555F83AF51}">
+												<Child Name="Polegar_Vertical" Owner="{7ED2F0DE-A79E-4C79-8CB7-5C6F6E2A3DF0}" />
+											</Child>
+											<Child Name="Adicionar_foto" Owner="{D36FE186-8FB6-46E3-898D-CB6F7E00B035}" />
+										</Child>
+										<Child Name="Salvar" Owner="{4F8420C9-22D3-48DB-AD47-DD236F2C5939}" />
+									</Child>
+								</Child>
+								<Child Name="ApplicationBar" Owner="{9CDC7A22-5AD3-40C8-A51D-BF71EFA3D3E0}">
+									<Child Name="voltar" Owner="{C36CA343-CEAF-4CC2-AB22-91921946158A}" />
+								</Child>
+								<Child Name="Doannis_Delfino" Owner="{EA2DA4E6-ABA7-4F21-BF03-11A63F0E5036}" />
+							</Child>
+						</Child>
+						<Child Name="SearchCommandBar" Owner="{39B92CD8-2027-481A-A33B-D023C8E18B08}">
+							<Child Name="Novo_contato" Owner="{4157786C-0A17-41FC-9D4F-C8064C17BBCD}" />
+						</Child>
+						<Child Name="Lista_de_contatos" Owner="{430764D0-B2C0-4664-80EB-C2024E039EBC}">
+							<Child Name="SeZo" Owner="{80C05588-169F-44E4-A29A-3DB763CDEDCE}">
+								<Child Name="ContactsList" Owner="{8E1F16CC-E405-448F-AEDE-3D22C18CB371}">
+									<Child Name="L" Owner="{B0F94C08-5180-41DA-9443-22A20D897F4F}">
+										<Child Name="Lacey_Chapman" Owner="{9331F336-55CE-4638-8E01-1F2C8B54C3A4}">
+											<Child Name="Lacey_Chapman" Owner="{894C0D1B-5C33-4FA6-9D82-4D0D045254A0}">
+												<Child Name="Lacey_Chapman_2" Owner="{017AB405-F95D-4C1D-B806-98C7E4477AC0}" />
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="Popup" Owner="{7F1DA240-F345-49A2-8E65-8E8D1CFA5565}">
+					<Child Name="MenuFlyout" Owner="{B76E44B2-AC2C-4236-91CA-33786003A4A4}">
+						<Child Name="Endere_o_residencial" Owner="{482AE7F7-1F8F-4E0C-B45B-E4E33F6469E4}">
+							<Child Name="Endere_o_residencial" Owner="{0165CF98-7B5A-4E08-841F-9B48F87CE93B}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="App" Owner="{D1B8E83B-B2F5-4263-BA21-B85232D10684}">
+			<Child Name="Fotos" Owner="{CAB67851-BB14-4DF3-AD56-9A0114702D09}">
+				<Child Name="Pivot" Owner="{D3937B83-40CD-4104-8F65-4EDBC7C82334}">
+					<Child Name="Cole_o" Owner="{534E54EB-C7DC-4A0C-B442-23B0AE54E304}">
+						<Child Name="Cole_o" Owner="{6D5250EA-8EAD-4FCE-A4C7-81C5ABD37060}">
+							<Child Name="Itens_agrupados_por_m_s" Owner="{60009F11-BF58-42F7-9621-0305308A017D}">
+								<Child Name="mar_o_de_2019" Owner="{AA6A913E-D7D3-4B4B-8476-6D57580E508F}">
+									<Child Name="ListViewItem" Owner="{884BDB75-AFE2-465B-A100-44E801AA1199}">
+										<Child Name="IMG_20170707_1935_jpg" Owner="{A863099F-9FD8-485D-8E16-73BCD62F5725}">
+											<Child Name="PART_Image" Owner="{084EFC94-0D57-4587-B139-33BCF000E095}" />
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="Conclu_do" Owner="{33612D09-2E83-4EC3-BA5D-A32A0E91DA21}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
@@ -1578,6 +3535,382 @@
 					</Child>
 					<Child Name="RuntimeId" Doc="Gets the runtime identifier of the element." IsBasic="True" Data="ZI4L2L4S1CTCZN">
 						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18Z04L">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="17" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4S1CTBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K44T9ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param1>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3K58TBZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param2>
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4S3U3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="1359143254" Key="{7C63FD82-61E1-4ED0-BA79-B58CCBBACB12}">
+			<Data Properties="ZZKFFFFFFFFFFFFFFFFN4L4K2AZZY">
+				<FunctionDescriptions>
+					<Child Name="_NewEnum" Doc="Returns an enumerator for the children collection." IsBasic="True" Data="ZI4L2L4S54TDZN">
+						<ReturnValue Param0="13" />
+					</Child>
+					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T4S13ZG1K">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Child" Doc="Returns a child object by its index." IsBasic="True" Param0="Index" Data="ZI4L1L4L1K3U9ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S2CT3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="ClassName" Doc="Gets a string containing the class name of the element as assigned by the control developer." IsBasic="True" Data="ZI4L2L4S54TCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K1CS18ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K24S18ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ControlType" Doc="Represents the type of a user interface control." IsBasic="True" Data="ZI4L2L4S3UCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4S38TBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S34TBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Find" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K3CT9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindAll" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K4UCZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="FindAllChildren" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K6UCZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="FindChild" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K5CT9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindChildEx" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Param4="Timeout" Data="ZI4L1L4L5K2U9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param4>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindEx" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Param4="Timeout" Data="ZI4L1L4L5K1CT9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param4>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K2U9ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param1>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FrameworkId" Doc="Gets the control&apos;s specified direction." IsBasic="True" Data="ZI4L2L4S7UCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4S5U8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K14S18ZG1K">
+						<Param0>
+							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="26" Param1="26" Param2="16" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="23" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="19" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="26" Param1="3" />
+							<ParamDesc Flags="2" />
+						</Param4>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K1T18ZG1K">
+						<Param0>
+							<TypeDesc Param0="23" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="19" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="26" Param1="26" Param2="24" />
+							<ParamDesc Flags="2" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="GetTypeInfoCount" IsBasic="True" Param0="pctinfo" Data="ZI4L1L4L1LCS18ZG1K">
+						<Param0>
+							<TypeDesc Param0="26" Param1="23" />
+							<ParamDesc Flags="2" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4S34T3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S1CT3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K18S18ZG1K">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="19" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="18" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="26" Param1="29" Type1="DISPPARAMS" />
+							<ParamDesc Flags="1" />
+						</Param4>
+						<Param5>
+							<TypeDesc Param0="26" Param1="12" />
+							<ParamDesc Flags="2" />
+						</Param5>
+						<Param6>
+							<TypeDesc Param0="26" Param1="29" Type1="EXCEPINFO" />
+							<ParamDesc Flags="2" />
+						</Param6>
+						<Param7>
+							<TypeDesc Param0="26" Param1="23" />
+							<ParamDesc Flags="2" />
+						</Param7>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1K4T18ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="LocalizedControlType" Doc="Gets a description of the control type." IsBasic="True" Data="ZI4L2L4S34TCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S48T8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S24T8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="ObjectGroupIndex" IsBasic="True" Data="ZI4L2L4S4UCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="ObjectIdentifier" IsBasic="True" Data="ZI4L2L4S38TCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S28T9ZN">
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018ZG1K">
+						<Param0>
+							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="26" Param1="26" Param2="24" />
+							<ParamDesc Flags="2" />
+						</Param1>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Refresh" Doc="Updates the internal list of child objects." IsBasic="True" Data="ZI4L1L4S4CS18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Release" IsBasic="True" Data="ZI4L1L4T8S13ZG1K">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="RuntimeId" Doc="Gets the runtime identifier of the element." IsBasic="True" Data="ZI4L2L4S1CTCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="Toggle" Doc="Toggles the state of the control." IsBasic="True" Data="ZI4L1L4S2T18ZN">
+						<ReturnValue Param0="24" />
 					</Child>
 					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G38S18Z04L">
 						<Param0>

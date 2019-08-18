@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{EF0F0879-B826-49A5-A280-FA5F5DDEA4B5}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="43694.7470486111" objectName="Aliases.explorer.wndDesktopApp.DesktopApp.DUIViewWndClassName.Painel_do_Explorer.CtrlNotifySink.ShellView.Modo_de_Exibi_o_de_Itens.Lista_de_inventario_xlsx.Nome" objectLeft="198" objectTop="398" objectRight="316" objectBottom="411" clickPointX="295" clickPointY="409" imageFileName="tcvi6896592116527.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="43694.7472685185" objectName="Aliases.EXCEL.wndNUIDialog.NetUIHWND" objectLeft="516" objectTop="422" objectRight="544" objectBottom="439" clickPointX="523" clickPointY="434" imageFileName="tcvi6898510998642.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
