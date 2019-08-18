@@ -23,7 +23,6 @@
 						</Properties>
 						<Children>
 							<Child Name="wndWizardForm" Key="{4460D7B8-289F-487B-B51F-0015A13DFF70}" ParallelWalk="True">
-								<Image FileName="-35717429" Left="0" Top="0" Right="503" Bottom="389" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value PropertyType="0" Value="TWizardForm" Type="5" />
@@ -31,7 +30,6 @@
 								</Properties>
 								<Children>
 									<Child Name="NewButton" Key="{38605479-E180-47C6-B48A-16A4E89476CC}" ParallelWalk="True">
-										<Image FileName="1965409537" Left="255" Top="353" Right="330" Bottom="376" />
 										<TypeInfo Item0="{9221A445-7E44-4ED4-ABE2-B84BD3D252DE}" />
 										<Properties>
 											<Property Name="WndClass">
@@ -43,7 +41,6 @@
 										</Properties>
 									</Child>
 									<Child Name="NewButton2" Key="{BDA13372-5680-4BBF-A510-DA52CE22D23E}" ParallelWalk="True">
-										<Image FileName="-35717429" Left="330" Top="353" Right="405" Bottom="376" />
 										<TypeInfo Item0="{9221A445-7E44-4ED4-ABE2-B84BD3D252DE}" />
 										<Properties>
 											<Property Name="WndClass">
@@ -55,7 +52,6 @@
 										</Properties>
 									</Child>
 									<Child Name="NewNotebook" Key="{79E9A37C-331E-480D-99CF-ECE8FB9999D2}" ParallelWalk="True">
-										<Image FileName="1234528873" Left="3" Top="26" Right="500" Bottom="339" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value PropertyType="0" Value="TNewNotebook" Type="5" />
@@ -63,7 +59,6 @@
 										</Properties>
 										<Children>
 											<Child Name="NewNotebookPage" Key="{75C3D384-8EF5-43C2-B984-7A8B6DA723CB}" ParallelWalk="True">
-												<Image FileName="1234528873" Left="3" Top="26" Right="500" Bottom="339" />
 												<Properties>
 													<Property Name="WndClass">
 														<Value PropertyType="0" Value="TNewNotebookPage" Type="5" />
@@ -77,7 +72,6 @@
 												</Properties>
 												<Children>
 													<Child Name="NewNotebook" Key="{EFED9308-7CC5-4567-9615-00DF5A28255F}" ParallelWalk="True">
-														<Image FileName="1234528873" Left="43" Top="98" Right="460" Bottom="335" />
 														<Properties>
 															<Property Name="WndClass">
 																<Value PropertyType="0" Value="TNewNotebook" Type="5" />
@@ -85,7 +79,6 @@
 														</Properties>
 														<Children>
 															<Child Name="NewNotebookPage" Key="{D563BA76-8A78-4D73-B63F-023859777CDB}" ParallelWalk="True">
-																<Image FileName="1234528873" Left="43" Top="98" Right="460" Bottom="335" />
 																<Properties>
 																	<Property Name="WndClass">
 																		<Value PropertyType="0" Value="TNewNotebookPage" Type="5" />
@@ -99,7 +92,6 @@
 																</Properties>
 																<Children>
 																	<Child Name="radioAceptoElAcuerdo" Key="{4148A571-48F4-457E-A264-41615B73A2E7}" ParallelWalk="True">
-																		<Image FileName="1234528873" Left="43" Top="294" Right="460" Bottom="311" />
 																		<TypeInfo Item0="{397FB354-F2E4-4E6F-9D64-1F6EDC15AEEC}" />
 																		<Properties>
 																			<Property Name="WndClass">
@@ -195,6 +187,17 @@
 										</Properties>
 									</Child>
 								</Children>
+							</Child>
+							<Child Name="wndApplicationFrameWindow" Key="{7F131555-5286-483E-B1E2-0249A10F7EAC}" ParallelWalk="True">
+								<Image FileName="-142172998" Left="0" Top="0" Right="816" Bottom="640" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="ApplicationFrameWindow" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="44006F00610020000E202D00200050006500730073006F0061007300" Type="7" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -2125,6 +2128,24 @@
 																			</Property>
 																		</Properties>
 																	</Child>
+																	<Child Name="Doa" Key="{A9038F83-3E37-497B-A6DF-5F9E234CEF42}" ParallelWalk="True">
+																		<Image FileName="1547524790" Left="33" Top="93" Right="117" Bottom="177" />
+																		<TypeInfo Item0="{1416F746-0B3E-41F4-9416-2AE176C18EBC}" />
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value PropertyType="0" Value="XAML" Type="5" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="Windows.UI.Xaml.Controls.PersonPicture" Type="5" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value PropertyType="0" Value="texto" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="Doa" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
 																</Children>
 															</Child>
 														</Children>
@@ -2292,6 +2313,62 @@
 																										</Properties>
 																									</Child>
 																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="D" Key="{73F7761D-1FA6-4C2F-BA23-62EA47D294A8}" ParallelWalk="True">
+																				<Image FileName="1944226413" Left="8" Top="110" Right="808" Bottom="202" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value PropertyType="0" Value="XAML" Type="5" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="ListViewHeaderItem" Type="5" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value PropertyType="0" Value="grupo" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="D" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Doa" Key="{EB34F18F-6891-4A91-9020-B965F0DD1972}" ParallelWalk="True">
+																						<Image FileName="1944226413" Left="8" Top="154" Right="808" Bottom="202" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value PropertyType="0" Value="XAML" Type="5" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value PropertyType="0" Value="ListViewItem" Type="5" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value PropertyType="0" Value="item de lista" Type="5" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value PropertyType="0" Value="Doa" Type="5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Doa" Key="{4F9635F6-F16C-46D4-9DCD-73BF2B13BF7E}" ParallelWalk="True">
+																								<Image FileName="1944226413" Left="20" Top="156" Right="808" Bottom="200" />
+																								<TypeInfo Item0="{5D0FB603-2C0B-4D38-AD03-E9D4C107D50A}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value PropertyType="0" Value="XAML" Type="5" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value PropertyType="0" Value="AutomatableGrid" Type="5" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value PropertyType="0" Value="personalizado" Type="5" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value PropertyType="0" Value="Doa" Type="5" />
+																									</Property>
+																								</Properties>
 																							</Child>
 																						</Children>
 																					</Child>
@@ -2619,6 +2696,7 @@
 			<Child Name="wndPessoas" Owner="{4EB0E5D4-AEE0-4012-B97A-D7D59ABEF665}">
 				<Child Name="ApplicationFrameTitleBarWindow" Owner="{A99B0258-B508-4287-92C2-90AFB56747D4}" />
 			</Child>
+			<Child Name="wndApplicationFrameWindow" Owner="{7F131555-5286-483E-B1E2-0249A10F7EAC}" />
 		</Child>
 		<Child Name="explorer" Owner="{8DAF98BC-675C-4527-BFED-6CF494F94088}">
 			<Child Name="wnd2018" Owner="{C58D58A9-918B-4B83-8BA4-FC4318CC21F5}" />
@@ -2808,6 +2886,7 @@
 									<Child Name="voltar" Owner="{C36CA343-CEAF-4CC2-AB22-91921946158A}" />
 								</Child>
 								<Child Name="Doannis_Delfino" Owner="{EA2DA4E6-ABA7-4F21-BF03-11A63F0E5036}" />
+								<Child Name="Doa" Owner="{A9038F83-3E37-497B-A6DF-5F9E234CEF42}" />
 							</Child>
 						</Child>
 						<Child Name="SearchCommandBar" Owner="{39B92CD8-2027-481A-A33B-D023C8E18B08}">
@@ -2821,6 +2900,11 @@
 											<Child Name="Lacey_Chapman" Owner="{894C0D1B-5C33-4FA6-9D82-4D0D045254A0}">
 												<Child Name="Lacey_Chapman_2" Owner="{017AB405-F95D-4C1D-B806-98C7E4477AC0}" />
 											</Child>
+										</Child>
+									</Child>
+									<Child Name="D" Owner="{73F7761D-1FA6-4C2F-BA23-62EA47D294A8}">
+										<Child Name="Doa" Owner="{EB34F18F-6891-4A91-9020-B965F0DD1972}">
+											<Child Name="Doa" Owner="{4F9635F6-F16C-46D4-9DCD-73BF2B13BF7E}" />
 										</Child>
 									</Child>
 								</Child>

@@ -5,5 +5,6 @@
 		<child name="Comparacao_resultado_esperado" key="{3258E647-95EE-4F85-A2E2-F0B775A8C84A}" path="Comparacao_resultado_esperado.tcKDTest" />
 		<child name="Lista_de_inventario" key="{EF0F0879-B826-49A5-A280-FA5F5DDEA4B5}" path="Lista_de_inventario.tcKDTest" />
 		<child name="Novo_Contato" key="{D5B0D7E9-D0C9-40F4-BE48-FBFC4F85884A}" path="Novo_Contato.tcKDTest" />
+		<child name="Comparando_imagem" key="{F66BAB9A-9491-4997-99EB-768EC2A9D892}" path="Comparando_imagem.tcKDTest" />
 	</children>
 </Root>

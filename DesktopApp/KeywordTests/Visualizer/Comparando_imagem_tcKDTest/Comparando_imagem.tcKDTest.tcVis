@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{F66BAB9A-9491-4997-99EB-768EC2A9D892}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="43695.9111689815" objectName="Aliases.explorer.wndShell_TrayWnd.Iniciar" objectLeft="0" objectTop="0" objectRight="48" objectBottom="40" clickPointX="23" clickPointY="26" imageFileName="tcvi16954823416522.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="43695.9112037037" objectName="Aliases.Microsoft_Windows_ShellExperienceHost.Iniciar.SplitViewFrameXAMLWindow.Blocos_fixados.Cabe_alho_do_grupo_La_vida_en_un_vistazo.Pessoas" objectLeft="428" objectTop="403" objectRight="528" objectBottom="503" clickPointX="493" clickPointY="452" imageFileName="tcvi16955070388841.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="43695.9113078704" objectName="Aliases.Microsoft_People.Pessoas.UniversalMainPage.ContactsView.Lista_de_contatos.SeZo.ContactsList.D.Doa.Doa" objectLeft="20" objectTop="156" objectRight="808" objectBottom="200" clickPointX="57" clickPointY="179" imageFileName="tcvi16955982857363.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

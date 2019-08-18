@@ -10,5 +10,8 @@
 		<child name="Doannis_Delfino" key="{F091FFA7-E10C-4A36-8CBE-8636FB493EC4}">
 			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Doannis_Delfino" ID="{F091FFA7-E10C-4A36-8CBE-8636FB493EC4}" FileName="Regions\Doannis_Delfino.png" Update="False" />
 		</child>
+		<child name="Contato" key="{1AC76C44-038B-45E5-9FFE-9D16D809A613}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="Contato" ID="{1AC76C44-038B-45E5-9FFE-9D16D809A613}" FileName="Regions\Contato.png" Update="False" />
+		</child>
 	</children>
 </Root>
