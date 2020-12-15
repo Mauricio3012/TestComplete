@@ -20,6 +20,18 @@ function test_ResetIE() {
          
 
             Log.Message("Running tests for the "+environment+" configuration");
+            
+             switch (environment)
+  {
+    case "SVT":
+      Log.Message("Running tests for the SVT configuration");
+      // Simulate a user action over the debug version of the application
+      break;
+    case "PTST":
+      Log.Message("Running tests for the PTST configuration");
+      // Simulate a user action over the debug version of the application
+      break;
+  }
           
 
 }
