@@ -1,13 +1,12 @@
 # Git Ignore List
-syntax: glob
 *.js.bak
 *.js.tcVis
 */Log/*
 *.sj.bak
 *.tcLS
 *.tcCfgExtender
+/Minha suite.tcCfgExtender
 *.tcLogs
-
 
 # Git Ignore: Project exceptions
 Log/*
