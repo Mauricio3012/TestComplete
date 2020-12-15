@@ -5,8 +5,9 @@
 *.sj.bak
 *.tcLS
 *.tcCfgExtender
-/Minha suite.tcCfgExtender
+*.TCCFGEXTENDER
 *.tcLogs
+*.mds.tcLogs
 
 # Git Ignore: Project exceptions
 Log/*
