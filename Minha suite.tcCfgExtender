@@ -21,7 +21,7 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{8B03766A-5E9C-4BDD-BE0F-3828D5501F8A}"/>
+				<Prp name="activity" type="S" value="{E8563CBB-3059-45AA-8C01-E601220963F7}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
 				<Node name="{24b4abc4-b4e2-4641-aac3-f739db29d761}">
@@ -131,6 +131,7 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+					<Node name="{e8563cbb-3059-45aa-8c01-e601220963f7}"/>
 				</Node>
 			</Node>
 			<Node name="{d02cce92-fd05-4f42-a803-fe08e8104e33}">
