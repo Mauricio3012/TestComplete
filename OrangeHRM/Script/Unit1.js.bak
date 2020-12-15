@@ -15,11 +15,13 @@ function LoginPage()
   Aliases.browser.Item.Close();
 }
 
+//@TestParameters
 function Main()
 {
   processCommandLineArguments();
 }
 
+//@TestParameters
 function processCommandLineArguments()
 {
   for (var i = 0; i < BuiltIn.ParamCount(); i++)
@@ -28,6 +30,7 @@ function processCommandLineArguments()
   }
 }
 
+//@TestParameters
 function processCommandLineArgument(arg)
 {
   var items = arg.split("=");

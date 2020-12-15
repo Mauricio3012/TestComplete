@@ -10,7 +10,7 @@ function LoginPage()
   //Clicks the 'submitbuttonLogin' button.
   Aliases.browser.pageOrangehrm2.formFrmlogin.submitbuttonLogin.ClickButton();
   //Checks whether the 'contentText' property of the Aliases.browser.pageOrangehrm.panelBranding.linkWelcome object equals 'Welcome Paul'.
-  aqObject.CheckProperty(Aliases.browser.pageOrangehrm.panelBranding.linkWelcome, "contentText", cmpEqual, "Welcome Lee");
+  aqObject.CheckProperty(Aliases.browser.pageOrangehrm.panelBranding.linkWelcome, "contentText", cmpEqual, "Welcome Paul");
   //Closes the 'Item' window.
   Aliases.browser.Item.Close();
 }
