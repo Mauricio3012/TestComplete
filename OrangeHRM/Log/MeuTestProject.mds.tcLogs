@@ -39,6 +39,60 @@
 				<Prp name="relpath" type="S" value="18_08_2019_12_02 p_ m__51_764\Description.tcLog"/>
 				<Prp name="status" type="I" value="1"/>
 			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44179.7674421181"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{78F0E5B2-36DD-44F4-A53A-5A93C5FDAABF}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [LoginPage]"/>
+				<Prp name="relpath" type="S" value="14_12_2020_18_25_07_0\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44179.7687743982"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C54817A3-DC34-4FFE-9521-D340621976D8}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [LoginPage]"/>
+				<Prp name="relpath" type="S" value="14_12_2020_18_27_02_108\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44179.7692455093"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0BAA9AE8-E8C6-4F1E-99FC-0399F30C504A}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [LoginPage]"/>
+				<Prp name="relpath" type="S" value="14_12_2020_18_27_42_812\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44179.7700516319"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{79495C2E-619E-41E9-B3C2-A679F2EAB7FF}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [LoginPage]"/>
+				<Prp name="relpath" type="S" value="14_12_2020_18_28_52_461\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44180.586040162"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{215DCCA1-D377-4588-BBDB-84D8CA948931}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [LoginPage]"/>
+				<Prp name="relpath" type="S" value="15_12_2020_14_03_53_870\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44180.6349708796"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C3A42431-5F7A-4AFF-A8C7-7D60441B34A0}"/>
+				<Prp name="nameofroot" type="S" value="MeuTestProject [@TestScript]"/>
+				<Prp name="relpath" type="S" value="15_12_2020_15_14_21_484\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

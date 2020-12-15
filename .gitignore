@@ -1,0 +1,14 @@
+# Git Ignore List
+*.js.bak
+*.js.tcVis
+*/Log/*
+*.sj.bak
+*.tcLS
+*.tcCfgExtender
+/Minha suite.tcCfgExtender
+*.tcLogs
+
+# Git Ignore: Project exceptions
+Log/*
+OrangeHRM/Script/Visualizer/*
+OrangeHRM/Log/*

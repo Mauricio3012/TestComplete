@@ -2,5 +2,6 @@
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
 		<child name="Unit1" key="{8B03766A-5E9C-4BDD-BE0F-3828D5501F8A}" path="Unit1.js" />
+		<child name="Unit2" key="{E8563CBB-3059-45AA-8C01-E601220963F7}" path="Unit2.js" />
 	</children>
 </Root>
