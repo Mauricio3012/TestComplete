@@ -27,6 +27,9 @@
 				<Node name="{24b4abc4-b4e2-4641-aac3-f739db29d761}">
 					<Prp name="hash" type="I" value="1"/>
 				</Node>
+				<Node name="{375726d0-f23a-40b5-a5a2-20e690cbb891}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
 			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
@@ -131,7 +134,16 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
-					<Node name="{e8563cbb-3059-45aa-8c01-e601220963f7}"/>
+					<Node name="{e8563cbb-3059-45aa-8c01-e601220963f7}">
+						<Node name="0">
+							<Prp name="bottom" type="I" value="24"/>
+							<Prp name="collapsed" type="B" value="0"/>
+							<Prp name="top" type="I" value="1"/>
+						</Node>
+						<Prp name="bottom" type="I" value="26"/>
+						<Prp name="collapsed" type="B" value="0"/>
+						<Prp name="top" type="I" value="0"/>
+					</Node>
 				</Node>
 			</Node>
 			<Node name="{d02cce92-fd05-4f42-a803-fe08e8104e33}">
