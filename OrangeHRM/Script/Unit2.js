@@ -9,7 +9,7 @@ function test_ResetIE() {
             Log.Message("BuiltIn.ParamCount(): "+BuiltIn.ParamCount());
        
 
-            var env = BuiltIn.ParamCount();
+            var env = BuiltIn.ParamCount() -2;
 
             Log.Message("env: "+env);
 
