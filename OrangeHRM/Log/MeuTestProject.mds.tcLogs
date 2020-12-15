@@ -111,6 +111,15 @@
 				<Prp name="relpath" type="S" value="15_12_2020_17_32_21_771\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44180.7486930208"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{722B0932-7CA8-4CBA-9D46-DF1910EE8A1D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Unit2\test_ResetIE]"/>
+				<Prp name="relpath" type="S" value="15_12_2020_17_58_07_77\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
