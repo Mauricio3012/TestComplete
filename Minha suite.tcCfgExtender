@@ -27,6 +27,9 @@
 				<Node name="{24b4abc4-b4e2-4641-aac3-f739db29d761}">
 					<Prp name="hash" type="I" value="1"/>
 				</Node>
+				<Node name="{375726d0-f23a-40b5-a5a2-20e690cbb891}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
 			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
@@ -170,6 +173,7 @@
 				</Node>
 				<Node name="minha suite logs">
 					<Node name="desktopapp logs"/>
+					<Node name="meutestproject logs"/>
 				</Node>
 			</Node>
 		</Node>

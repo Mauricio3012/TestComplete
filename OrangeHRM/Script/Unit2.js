@@ -4,30 +4,35 @@ function test_ResetIE() {
     var scenarioID = Project.Variables.SCENARIONAME;
 
 
-            Log.Message("Main");
+//            Log.Message("Main");
+//
+//            Log.Message("BuiltIn.ParamCount(): "+BuiltIn.ParamCount());
+//       
+//
+//            var env = BuiltIn.ParamCount() -2;
+//
+//            Log.Message("env: "+env);
+//
+//            
+//            var environment = BuiltIn.ParamStr(env);
 
-            Log.Message("BuiltIn.ParamCount(): "+BuiltIn.ParamCount());
-       
-
-            var env = BuiltIn.ParamCount() -2;
-
-            Log.Message("env: "+env);
-
+            var environment = "[SVT]";
             
-            var environment = BuiltIn.ParamStr(env);
-
             Log.Message("environment: "+environment);
+            
+           environment =  environment.replace("[","");
+           environment =  environment.replace("]","");
          
 
 //            Log.Message("Running tests for the "+environment+" configuration");
             
-             switch (aqString.ToLower(aqString.Trim(environment)))
+             switch (environment)
   {
-    case "[SVT]":
+    case "SVT":
       Log.Message("This environment is SVT configuration");
       // Simulate a user action over the debug version of the application
       break;
-    case "[PTST]":
+    case "PTST":
       Log.Message("This environment is PTST configuration");
       // Simulate a user action over the debug version of the application
       break;
