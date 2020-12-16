@@ -23,11 +23,11 @@ function test_ResetIE() {
             
              switch (aqString.ToLower(aqString.Trim(environment)))
   {
-    case "SVT":
+    case "[SVT]":
       Log.Message("This environment is SVT configuration");
       // Simulate a user action over the debug version of the application
       break;
-    case "PTST":
+    case "[PTST]":
       Log.Message("This environment is PTST configuration");
       // Simulate a user action over the debug version of the application
       break;

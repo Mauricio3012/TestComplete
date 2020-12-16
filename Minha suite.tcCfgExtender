@@ -170,7 +170,6 @@
 				</Node>
 				<Node name="minha suite logs">
 					<Node name="desktopapp logs"/>
-					<Node name="meutestproject logs"/>
 				</Node>
 			</Node>
 		</Node>
